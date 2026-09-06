@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment & Dependencies
+.venv/
+venv/
+env/
+node_modules/
+
+# Logs & Runtime Generated Data
+*.log
+tmp/
+audit.jsonl
+data/investigations/*
+!data/investigations/.gitkeep

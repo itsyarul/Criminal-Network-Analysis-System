@@ -1,0 +1,1202 @@
+{
+  "nodes": [
+    {
+      "id": "D1",
+      "name": "Rajan Qureshi",
+      "role": "Kingpin",
+      "cell": "D",
+      "phone": "7010000001",
+      "account": "AC0010000001",
+      "photo": "/mugshots/0657ffd9-6203-44cb-817f-a8be75d41819.jpg"
+    },
+    {
+      "id": "D2",
+      "name": "Vivaan Kulkarni",
+      "role": "Lieutenant",
+      "cell": "D",
+      "phone": "7010000002",
+      "account": "AC0010000002",
+      "photo": "/mugshots/0d892055-1c40-4f56-a720-8aa4dec6a9d3.jpg"
+    },
+    {
+      "id": "D3",
+      "name": "Rajesh Ansari",
+      "role": "Lieutenant",
+      "cell": "D",
+      "phone": "7010000003",
+      "account": "AC0010000003",
+      "photo": "/mugshots/11bdfa48-d27f-48b2-a53b-36432839144c.jpg"
+    },
+    {
+      "id": "D4",
+      "name": "Sameer Nair",
+      "role": "Lieutenant",
+      "cell": "D",
+      "phone": "7010000004",
+      "account": "AC0010000004",
+      "photo": "/mugshots/14994110-3a3d-422c-b83b-3b9b1315f494.jpg"
+    },
+    {
+      "id": "D5",
+      "name": "Rahul Pathan",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000005",
+      "account": "AC0010000005",
+      "photo": "/mugshots/1b639257-00b1-4876-b92e-e18fff17447f.jpg"
+    },
+    {
+      "id": "D6",
+      "name": "Vinod Desai",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000006",
+      "account": "AC0010000006",
+      "photo": "/mugshots/2717383f-1560-41d1-ac20-e97b5b262b32.jpg"
+    },
+    {
+      "id": "D7",
+      "name": "Sameer Pandey",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000007",
+      "account": "AC0010000007",
+      "photo": "/mugshots/28aa874f-33f0-48e5-ba8e-b3747732e6fa.jpg"
+    },
+    {
+      "id": "D8",
+      "name": "Vinod Kapoor",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000008",
+      "account": "AC0010000008",
+      "photo": "/mugshots/2bd82b0a-6f8c-413f-aca2-cd41ab2e193c.jpg"
+    },
+    {
+      "id": "D9",
+      "name": "Kavita Baig",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000009",
+      "account": "AC0010000009",
+      "photo": "/mugshots/2e13f2bc-fc0a-4573-a488-0b1902678f07.jpg"
+    },
+    {
+      "id": "D10",
+      "name": "Veer Gaikwad",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000010",
+      "account": "AC0010000010",
+      "photo": "/mugshots/335c3b45-40f7-4e60-9f81-58b93463bda6.jpg"
+    },
+    {
+      "id": "D11",
+      "name": "Pooja Reddy",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000011",
+      "account": "AC0010000011",
+      "photo": "/mugshots/33762dbb-4fd0-486f-b58b-9bf5f8d1536a.jpg"
+    },
+    {
+      "id": "D12",
+      "name": "Sanjay Surve",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000012",
+      "account": "AC0010000012",
+      "photo": "/mugshots/36f1ebbb-0bca-4d72-a199-032eaa08a321.jpg"
+    },
+    {
+      "id": "D13",
+      "name": "Shaurya Qureshi",
+      "role": "Accountant",
+      "cell": "D",
+      "phone": "7010000013",
+      "account": "AC0010000013",
+      "photo": "/mugshots/373c95ea-ee86-4834-9c81-267a02906310.jpg"
+    },
+    {
+      "id": "D14",
+      "name": "Anwar Chavan",
+      "role": "Safehouse keeper",
+      "cell": "D",
+      "phone": "7010000014",
+      "account": "AC0010000014",
+      "photo": "/mugshots/37d15fa6-861a-40b5-b0c2-d7622dab2df3.jpg"
+    },
+    {
+      "id": "D15",
+      "name": "Meena Desai",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000015",
+      "account": "AC0010000015",
+      "photo": "/mugshots/390913ff-13d7-4272-a881-0e80e04d460a.jpg"
+    },
+    {
+      "id": "D16",
+      "name": "Ansh Menon",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000016",
+      "account": "AC0010000016",
+      "photo": "/mugshots/3a6b37ed-50e3-4956-bb8e-43aefe434003.jpg"
+    },
+    {
+      "id": "D17",
+      "name": "Krishna Nair",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000017",
+      "account": "AC0010000017",
+      "photo": "/mugshots/3b797ba4-56ad-4055-b51b-72931cd62aab.jpg"
+    },
+    {
+      "id": "D18",
+      "name": "Harshit Iyer",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000018",
+      "account": "AC0010000018",
+      "photo": "/mugshots/3e8b8732-4f1e-4506-901a-e9ea949aa027.jpg"
+    },
+    {
+      "id": "D19",
+      "name": "Vikram Deshmukh",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000019",
+      "account": "AC0010000019",
+      "photo": "/mugshots/405a6a6e-758b-456e-9bf1-0dcebff3b8ad.jpg"
+    },
+    {
+      "id": "D20",
+      "name": "Harshit Verma",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000020",
+      "account": "AC0010000020",
+      "photo": "/mugshots/4620ed37-801a-44be-a493-a5045aa3f057.jpg"
+    },
+    {
+      "id": "D21",
+      "name": "Sunil Shaikh",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000021",
+      "account": "AC0010000021",
+      "photo": "/mugshots/51d037ec-e588-4151-b1c5-1ad09859b2cd.jpg"
+    },
+    {
+      "id": "D22",
+      "name": "Rajan Sharma",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000022",
+      "account": "AC0010000022",
+      "photo": "/mugshots/53cb9175-d382-48fe-a433-a7359defbd9e.jpg"
+    },
+    {
+      "id": "D23",
+      "name": "Aarav Sawant",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000023",
+      "account": "AC0010000023",
+      "photo": "/mugshots/5420c3f6-bcb4-4879-abca-a0cee7cc124d.jpg"
+    },
+    {
+      "id": "D24",
+      "name": "Naksh Chougule",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7010000024",
+      "account": "AC0010000024",
+      "photo": "/mugshots/560906fd-f0d0-4c3e-a2eb-d42f6ca16788.jpg"
+    },
+    {
+      "id": "E1",
+      "name": "Divya Reddy",
+      "role": "Kingpin",
+      "cell": "E",
+      "phone": "7010000025",
+      "account": "AC0010000025",
+      "photo": "/mugshots/570d6bfa-3443-4430-b23a-a1913e3e7b87.jpg"
+    },
+    {
+      "id": "E2",
+      "name": "Tushar Mishra",
+      "role": "Lieutenant",
+      "cell": "E",
+      "phone": "7010000026",
+      "account": "AC0010000026",
+      "photo": "/mugshots/58a6a0da-ac5f-482d-bca8-e32fbab58c38.jpg"
+    },
+    {
+      "id": "E3",
+      "name": "Rajan Mishra",
+      "role": "Lieutenant",
+      "cell": "E",
+      "phone": "7010000027",
+      "account": "AC0010000027",
+      "photo": "/mugshots/5cde59da-a73b-4db7-a9bd-d36cb1369cac.jpg"
+    },
+    {
+      "id": "E4",
+      "name": "Sneha Reddy",
+      "role": "Lieutenant",
+      "cell": "E",
+      "phone": "7010000028",
+      "account": "AC0010000028",
+      "photo": "/mugshots/5f7b8dcd-b9bd-4379-a3ec-e4f5e6518826.jpg"
+    },
+    {
+      "id": "E5",
+      "name": "Imran Shah",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000029",
+      "account": "AC0010000029",
+      "photo": "/mugshots/61ccc16c-9c68-48e7-9f30-947649bb5a21.jpg"
+    },
+    {
+      "id": "E6",
+      "name": "Javed Kamble",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000030",
+      "account": "AC0010000030",
+      "photo": "/mugshots/6c702620-c61b-4371-bfcc-474055de6dc4.jpg"
+    },
+    {
+      "id": "E7",
+      "name": "Gautam Salunkhe",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000031",
+      "account": "AC0010000031",
+      "photo": "/mugshots/70ce1a38-436f-4527-8dac-8246e0779939.jpg"
+    },
+    {
+      "id": "E8",
+      "name": "Arjun Shah",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000032",
+      "account": "AC0010000032",
+      "photo": "/mugshots/8089cd03-9e32-457b-8f64-283cf1a116a1.jpg"
+    },
+    {
+      "id": "E9",
+      "name": "Rohan Malik",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000033",
+      "account": "AC0010000033",
+      "photo": "/mugshots/830181da-fd8a-4304-b790-0fb317db80fd.jpg"
+    },
+    {
+      "id": "E10",
+      "name": "Neha Menon",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000034",
+      "account": "AC0010000034",
+      "photo": "/mugshots/8696f9fa-7ad0-4c28-802d-635237c4b40a.jpg"
+    },
+    {
+      "id": "E11",
+      "name": "Kavita Sawant",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000035",
+      "account": "AC0010000035",
+      "photo": "/mugshots/8e645efe-ce70-490b-b8e1-7fbc491258fa.jpg"
+    },
+    {
+      "id": "E12",
+      "name": "Siddharth Kapoor",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000036",
+      "account": "AC0010000036",
+      "photo": "/mugshots/8ebd48ef-3e8d-418f-b26f-3940f55273d6.jpg"
+    },
+    {
+      "id": "E13",
+      "name": "Kiran Sinha",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000037",
+      "account": "AC0010000037",
+      "photo": "/mugshots/9a8d6a95-0a8f-4801-af01-beb0453eb72e.jpg"
+    },
+    {
+      "id": "E14",
+      "name": "Dinesh Pillai",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000038",
+      "account": "AC0010000038",
+      "photo": "/mugshots/9c5e018c-ef43-473c-97cb-be32168bcdfd.jpg"
+    },
+    {
+      "id": "E15",
+      "name": "Kabir Gupta",
+      "role": "Financier",
+      "cell": "E",
+      "phone": "7010000039",
+      "account": "AC0010000039",
+      "photo": "/mugshots/9c7c1ddf-781e-4e38-b015-15b2a339a620.jpg"
+    },
+    {
+      "id": "E16",
+      "name": "Rudra Malhotra",
+      "role": "Cache keeper",
+      "cell": "E",
+      "phone": "7010000040",
+      "account": "AC0010000040",
+      "photo": "/mugshots/a34113c4-32b0-4bf1-8e81-7970dfe98e2f.jpg"
+    },
+    {
+      "id": "E17",
+      "name": "Vivaan Patel",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000041",
+      "account": "AC0010000041",
+      "photo": "/mugshots/a7aa3e27-0d94-4846-946a-85b1039ba3ab.jpg"
+    },
+    {
+      "id": "E18",
+      "name": "Sahil Chatterjee",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000042",
+      "account": "AC0010000042",
+      "photo": "/mugshots/adfe5b76-26e9-4d7f-a1ae-7748180af624 (1).jpg"
+    },
+    {
+      "id": "E19",
+      "name": "Priya Bhatia",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000043",
+      "account": "AC0010000043",
+      "photo": "/mugshots/adfe5b76-26e9-4d7f-a1ae-7748180af624.jpg"
+    },
+    {
+      "id": "E20",
+      "name": "Naksh Rao",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000044",
+      "account": "AC0010000044",
+      "photo": "/mugshots/b470e6a0-50b6-4dde-9ce4-b72e4f60a5fb.jpg"
+    },
+    {
+      "id": "E21",
+      "name": "Mohan Sharma",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000045",
+      "account": "AC0010000045",
+      "photo": "/mugshots/c10787ab-6950-4bbd-a370-0b4c0bd78d9e.jpg"
+    },
+    {
+      "id": "E22",
+      "name": "Reyansh Jain",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000046",
+      "account": "AC0010000046",
+      "photo": "/mugshots/ceaf6b15-d45d-46b5-9dce-6f5b65dd58c4.jpg"
+    },
+    {
+      "id": "E23",
+      "name": "Ashok Yadav",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000047",
+      "account": "AC0010000047",
+      "photo": "/mugshots/d49a5968-144a-4c9e-8df8-adc1c0073275.jpg"
+    },
+    {
+      "id": "E24",
+      "name": "Farhan Salunkhe",
+      "role": "Courier",
+      "cell": "E",
+      "phone": "7010000048",
+      "account": "AC0010000048",
+      "photo": "/mugshots/d557cc1e-1d71-4a4d-8f46-30f6bdcf387b.jpg"
+    },
+    {
+      "id": "F1",
+      "name": "Veer Gupta",
+      "role": "Kingpin",
+      "cell": "F",
+      "phone": "7010000049",
+      "account": "AC0010000049",
+      "photo": "/mugshots/dea2b54a-335d-48ef-933f-5020173d4775.jpg"
+    },
+    {
+      "id": "F2",
+      "name": "Vivaan Chougule",
+      "role": "Lieutenant",
+      "cell": "F",
+      "phone": "7010000050",
+      "account": "AC0010000050",
+      "photo": "/mugshots/df9c8f35-27c0-45c8-a486-ef792f33f849.jpg"
+    },
+    {
+      "id": "F3",
+      "name": "Sameer Menon",
+      "role": "Lieutenant",
+      "cell": "F",
+      "phone": "7010000051",
+      "account": "AC0010000051",
+      "photo": "/mugshots/e02a4fe5-bf90-4bb1-b8a7-426a4d4bc947.jpg"
+    },
+    {
+      "id": "F4",
+      "name": "Sunil Bhosale",
+      "role": "Lieutenant",
+      "cell": "F",
+      "phone": "7010000052",
+      "account": "AC0010000052",
+      "photo": "/mugshots/e47e9cdf-2f73-4456-b682-a631ddf56b86.jpg"
+    },
+    {
+      "id": "F5",
+      "name": "Rohan Thakur",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000053",
+      "account": "AC0010000053",
+      "photo": "/mugshots/e5b6162c-47da-4148-bfba-ef462f72f685.jpg"
+    },
+    {
+      "id": "F6",
+      "name": "Alok Jain",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000054",
+      "account": "AC0010000054",
+      "photo": "/mugshots/e6c45a89-278f-4746-85d0-f78f9cb4d235.jpg"
+    },
+    {
+      "id": "F7",
+      "name": "Vivaan Baig",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000055",
+      "account": "AC0010000055",
+      "photo": "/mugshots/edb9025f-1e53-4212-bc43-c239d6ddfeb7.jpg"
+    },
+    {
+      "id": "F8",
+      "name": "Vijay Iyer",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000056",
+      "account": "AC0010000056",
+      "photo": "/mugshots/f30abe1e-aad3-4f39-9e53-ee71accd9aa3.jpg"
+    },
+    {
+      "id": "F9",
+      "name": "Amit Kulkarni",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000057",
+      "account": "AC0010000057",
+      "photo": "/mugshots/f4206c03-2870-47d3-803c-c30c287359d5.jpg"
+    },
+    {
+      "id": "F10",
+      "name": "Pooja Nair",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000058",
+      "account": "AC0010000058",
+      "photo": "/mugshots/f547781c-eb38-4adb-a0a8-ea5309d2468b.jpg"
+    },
+    {
+      "id": "F11",
+      "name": "Deepak Chougule",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000059",
+      "account": "AC0010000059",
+      "photo": "/mugshots/f9853fb5-aed9-47f2-b302-395ee911598e.jpg"
+    },
+    {
+      "id": "F12",
+      "name": "Rohan Naik",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000060",
+      "account": "AC0010000060",
+      "photo": "/mugshots/fa0e05e2-eed2-4463-ae87-224bbd174538.jpg"
+    },
+    {
+      "id": "F13",
+      "name": "Dhruv Yadav",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000061",
+      "account": "AC0010000061",
+      "photo": "/mugshots/fd9de171-321e-4946-8a18-cad49399d85c.jpg"
+    },
+    {
+      "id": "F14",
+      "name": "Neha Desai",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000062",
+      "account": "AC0010000062",
+      "photo": "/mugshots/ffa879d7-43d3-4bb9-801b-b421e23225fe.jpg"
+    },
+    {
+      "id": "F15",
+      "name": "Gautam Shah",
+      "role": "Accountant",
+      "cell": "F",
+      "phone": "7010000063",
+      "account": "AC0010000063",
+      "photo": "/mugshots/N1.jpg"
+    },
+    {
+      "id": "F16",
+      "name": "Kunal Desai",
+      "role": "Collection agent",
+      "cell": "F",
+      "phone": "7010000064",
+      "account": "AC0010000064",
+      "photo": "/mugshots/N10.jpg"
+    },
+    {
+      "id": "F17",
+      "name": "Naksh Bansal",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000065",
+      "account": "AC0010000065",
+      "photo": "/mugshots/N11.jpg"
+    },
+    {
+      "id": "F18",
+      "name": "Dhruv Sheikh",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000066",
+      "account": "AC0010000066",
+      "photo": "/mugshots/N12.jpg"
+    },
+    {
+      "id": "F19",
+      "name": "Aarav Patel",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000067",
+      "account": "AC0010000067",
+      "photo": "/mugshots/N13.jpg"
+    },
+    {
+      "id": "F20",
+      "name": "Neha Kadam",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000068",
+      "account": "AC0010000068",
+      "photo": "/mugshots/N14.jpg"
+    },
+    {
+      "id": "F21",
+      "name": "Siddharth Pillai",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000069",
+      "account": "AC0010000069",
+      "photo": "/mugshots/N15.jpg"
+    },
+    {
+      "id": "F22",
+      "name": "Rakesh Salunkhe",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000070",
+      "account": "AC0010000070",
+      "photo": "/mugshots/N16.jpg"
+    },
+    {
+      "id": "F23",
+      "name": "Atharva Kapoor",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000071",
+      "account": "AC0010000071",
+      "photo": "/mugshots/N17.jpg"
+    },
+    {
+      "id": "F24",
+      "name": "Meena Bhosale",
+      "role": "Enforcer",
+      "cell": "F",
+      "phone": "7010000072",
+      "account": "AC0010000072",
+      "photo": "/mugshots/N18.jpg"
+    },
+    {
+      "id": "Y1",
+      "name": "Ramesh Singh",
+      "role": "Hawala operator",
+      "cell": "Bridge",
+      "phone": "7010000073",
+      "account": "AC0010000073",
+      "photo": "/mugshots/N19.jpg"
+    },
+    {
+      "id": "Y2",
+      "name": "Santosh Kulkarni",
+      "role": "Weapons supplier",
+      "cell": "Bridge",
+      "phone": "7010000074",
+      "account": "AC0010000074",
+      "photo": "/mugshots/N2.jpg"
+    },
+    {
+      "id": "Y3",
+      "name": "Siddharth Mehta",
+      "role": "Logistics broker",
+      "cell": "Bridge",
+      "phone": "7010000075",
+      "account": "AC0010000075",
+      "photo": "/mugshots/N20.jpg"
+    },
+    {
+      "id": "Y4",
+      "name": "Siddharth Verma",
+      "role": "Corrupt police contact",
+      "cell": "Bridge",
+      "phone": "7010000076",
+      "account": "AC0010000076",
+      "photo": "/mugshots/N3.jpg"
+    },
+    {
+      "id": "Y5",
+      "name": "Sameer Bhatia",
+      "role": "Cyber coordinator",
+      "cell": "Bridge",
+      "phone": "7010000077",
+      "account": "AC0010000077",
+      "photo": "/mugshots/N4.jpg"
+    },
+    {
+      "id": "Y6",
+      "name": "Veer Bansal",
+      "role": "Arms courier",
+      "cell": "Bridge",
+      "phone": "7010000078",
+      "account": "AC0010000078",
+      "photo": "/mugshots/N5.jpg"
+    }
+  ],
+  "edges": [
+    {
+      "source": "D1",
+      "target": "D2",
+      "relation": "commands"
+    },
+    {
+      "source": "D1",
+      "target": "D3",
+      "relation": "commands"
+    },
+    {
+      "source": "D1",
+      "target": "D4",
+      "relation": "commands"
+    },
+    {
+      "source": "D2",
+      "target": "D5",
+      "relation": "commands"
+    },
+    {
+      "source": "D2",
+      "target": "D6",
+      "relation": "commands"
+    },
+    {
+      "source": "D2",
+      "target": "D13",
+      "relation": "commands"
+    },
+    {
+      "source": "D3",
+      "target": "D7",
+      "relation": "commands"
+    },
+    {
+      "source": "D3",
+      "target": "D8",
+      "relation": "commands"
+    },
+    {
+      "source": "D3",
+      "target": "D14",
+      "relation": "commands"
+    },
+    {
+      "source": "D4",
+      "target": "D9",
+      "relation": "commands"
+    },
+    {
+      "source": "D4",
+      "target": "D10",
+      "relation": "commands"
+    },
+    {
+      "source": "D4",
+      "target": "D15",
+      "relation": "commands"
+    },
+    {
+      "source": "D5",
+      "target": "D6",
+      "relation": "coordinates"
+    },
+    {
+      "source": "D7",
+      "target": "D8",
+      "relation": "coordinates"
+    },
+    {
+      "source": "D11",
+      "target": "D5",
+      "relation": "coordinates"
+    },
+    {
+      "source": "D12",
+      "target": "D7",
+      "relation": "coordinates"
+    },
+    {
+      "source": "E1",
+      "target": "E2",
+      "relation": "commands"
+    },
+    {
+      "source": "E1",
+      "target": "E3",
+      "relation": "commands"
+    },
+    {
+      "source": "E1",
+      "target": "E4",
+      "relation": "commands"
+    },
+    {
+      "source": "E2",
+      "target": "E5",
+      "relation": "commands"
+    },
+    {
+      "source": "E2",
+      "target": "E6",
+      "relation": "commands"
+    },
+    {
+      "source": "E2",
+      "target": "E13",
+      "relation": "commands"
+    },
+    {
+      "source": "E3",
+      "target": "E7",
+      "relation": "commands"
+    },
+    {
+      "source": "E3",
+      "target": "E8",
+      "relation": "commands"
+    },
+    {
+      "source": "E3",
+      "target": "E14",
+      "relation": "commands"
+    },
+    {
+      "source": "E4",
+      "target": "E9",
+      "relation": "commands"
+    },
+    {
+      "source": "E4",
+      "target": "E10",
+      "relation": "commands"
+    },
+    {
+      "source": "E4",
+      "target": "E15",
+      "relation": "commands"
+    },
+    {
+      "source": "E5",
+      "target": "E6",
+      "relation": "coordinates"
+    },
+    {
+      "source": "E7",
+      "target": "E8",
+      "relation": "coordinates"
+    },
+    {
+      "source": "E11",
+      "target": "E5",
+      "relation": "coordinates"
+    },
+    {
+      "source": "E12",
+      "target": "E6",
+      "relation": "coordinates"
+    },
+    {
+      "source": "F1",
+      "target": "F2",
+      "relation": "commands"
+    },
+    {
+      "source": "F1",
+      "target": "F3",
+      "relation": "commands"
+    },
+    {
+      "source": "F1",
+      "target": "F4",
+      "relation": "commands"
+    },
+    {
+      "source": "F2",
+      "target": "F5",
+      "relation": "commands"
+    },
+    {
+      "source": "F2",
+      "target": "F6",
+      "relation": "commands"
+    },
+    {
+      "source": "F2",
+      "target": "F13",
+      "relation": "commands"
+    },
+    {
+      "source": "F3",
+      "target": "F7",
+      "relation": "commands"
+    },
+    {
+      "source": "F3",
+      "target": "F8",
+      "relation": "commands"
+    },
+    {
+      "source": "F3",
+      "target": "F14",
+      "relation": "commands"
+    },
+    {
+      "source": "F4",
+      "target": "F9",
+      "relation": "commands"
+    },
+    {
+      "source": "F4",
+      "target": "F10",
+      "relation": "commands"
+    },
+    {
+      "source": "F4",
+      "target": "F15",
+      "relation": "commands"
+    },
+    {
+      "source": "F5",
+      "target": "F6",
+      "relation": "coordinates"
+    },
+    {
+      "source": "F7",
+      "target": "F8",
+      "relation": "coordinates"
+    },
+    {
+      "source": "F11",
+      "target": "F5",
+      "relation": "coordinates"
+    },
+    {
+      "source": "F12",
+      "target": "F6",
+      "relation": "coordinates"
+    },
+    {
+      "source": "Y1",
+      "target": "D11",
+      "relation": "launders_for"
+    },
+    {
+      "source": "Y1",
+      "target": "E15",
+      "relation": "launders_for"
+    },
+    {
+      "source": "Y1",
+      "target": "F11",
+      "relation": "launders_for"
+    },
+    {
+      "source": "Y2",
+      "target": "E1",
+      "relation": "supplies_weapons"
+    },
+    {
+      "source": "Y2",
+      "target": "F1",
+      "relation": "supplies_weapons"
+    },
+    {
+      "source": "Y2",
+      "target": "D1",
+      "relation": "supplies_weapons"
+    },
+    {
+      "source": "Y3",
+      "target": "D1",
+      "relation": "provides_logistics"
+    },
+    {
+      "source": "Y3",
+      "target": "E1",
+      "relation": "provides_logistics"
+    },
+    {
+      "source": "Y3",
+      "target": "F1",
+      "relation": "provides_logistics"
+    },
+    {
+      "source": "Y4",
+      "target": "D2",
+      "relation": "tips_off"
+    },
+    {
+      "source": "Y4",
+      "target": "E2",
+      "relation": "tips_off"
+    },
+    {
+      "source": "Y4",
+      "target": "F2",
+      "relation": "tips_off"
+    },
+    {
+      "source": "Y5",
+      "target": "D13",
+      "relation": "coordinates_cyber"
+    },
+    {
+      "source": "Y5",
+      "target": "E13",
+      "relation": "coordinates_cyber"
+    },
+    {
+      "source": "Y5",
+      "target": "F13",
+      "relation": "coordinates_cyber"
+    },
+    {
+      "source": "Y6",
+      "target": "E5",
+      "relation": "courier_for"
+    },
+    {
+      "source": "Y6",
+      "target": "F5",
+      "relation": "courier_for"
+    },
+    {
+      "source": "Y6",
+      "target": "D5",
+      "relation": "courier_for"
+    },
+    {
+      "source": "D22",
+      "target": "D3",
+      "relation": "associates"
+    },
+    {
+      "source": "D19",
+      "target": "D18",
+      "relation": "associates"
+    },
+    {
+      "source": "D16",
+      "target": "D5",
+      "relation": "associates"
+    },
+    {
+      "source": "D21",
+      "target": "D11",
+      "relation": "associates"
+    },
+    {
+      "source": "D21",
+      "target": "D4",
+      "relation": "associates"
+    },
+    {
+      "source": "D21",
+      "target": "D7",
+      "relation": "associates"
+    },
+    {
+      "source": "D5",
+      "target": "D9",
+      "relation": "associates"
+    },
+    {
+      "source": "D19",
+      "target": "D2",
+      "relation": "associates"
+    },
+    {
+      "source": "E23",
+      "target": "E9",
+      "relation": "associates"
+    },
+    {
+      "source": "E13",
+      "target": "E8",
+      "relation": "associates"
+    },
+    {
+      "source": "E21",
+      "target": "E13",
+      "relation": "associates"
+    },
+    {
+      "source": "E3",
+      "target": "E9",
+      "relation": "associates"
+    },
+    {
+      "source": "E1",
+      "target": "E7",
+      "relation": "associates"
+    },
+    {
+      "source": "E21",
+      "target": "E17",
+      "relation": "associates"
+    },
+    {
+      "source": "E7",
+      "target": "E6",
+      "relation": "associates"
+    },
+    {
+      "source": "E22",
+      "target": "E11",
+      "relation": "associates"
+    },
+    {
+      "source": "F6",
+      "target": "F3",
+      "relation": "associates"
+    },
+    {
+      "source": "F18",
+      "target": "F20",
+      "relation": "associates"
+    },
+    {
+      "source": "F15",
+      "target": "F23",
+      "relation": "associates"
+    },
+    {
+      "source": "F24",
+      "target": "F12",
+      "relation": "associates"
+    },
+    {
+      "source": "F5",
+      "target": "F22",
+      "relation": "associates"
+    },
+    {
+      "source": "F21",
+      "target": "F16",
+      "relation": "associates"
+    },
+    {
+      "source": "F15",
+      "target": "F1",
+      "relation": "associates"
+    },
+    {
+      "source": "F24",
+      "target": "F2",
+      "relation": "associates"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVENT_D",
+      "cell": "D",
+      "type": "drug_shipment",
+      "day": 58,
+      "core_participants": [
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D11",
+        "D12"
+      ]
+    },
+    {
+      "id": "EVENT_E",
+      "cell": "E",
+      "type": "arms_shipment",
+      "day": 61,
+      "core_participants": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E15",
+        "E16"
+      ]
+    },
+    {
+      "id": "EVENT_F",
+      "cell": "F",
+      "type": "extortion_collection",
+      "day": 64,
+      "core_participants": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F11",
+        "F12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+report_id,date,day,team,location,confidence,activity_notes,ground_truth_flag
+SURV0020,2026-02-25,56,Bravo Watch,Warehouse District,Low,2156 hrs - Surveillance Team reports Rajan Mishra entering premises at Warehouse District with Divya Reddy. Vehicle reg MH-DEMO-6971 parked outside.,relevant_cell_E
+SURV0041,2026-02-24,55,Alpha Recon Squad,Station Road,Low,2206 hrs - Surveillance Team reports Rohan Naik entering premises at Station Road with Vivaan Chougule. Vehicle reg MH-DEMO-6589 parked outside.,relevant_cell_F
+SURV0059,2026-03-24,83,Bravo Watch,Eastgate,Low,1738 hrs - Responded to public disturbance call near Eastgate; resolved on-site.,noise
+SURV0049,2026-01-05,5,Field Unit 3,Eastgate,Low,"0935 hrs - Logged stationary vehicle near Eastgate; owner traced, no concern.",noise
+SURV0067,2026-02-26,57,Surveillance Team Bravo,Riverside Colony,Medium,0949 hrs - Routine patrol near Riverside Colony; no suspicious activity observed.,noise
+SURV0024,2026-03-01,60,Surveillance Team Alpha,Eastgate,High,2230 hrs - Surveillance Team reports Rudra Malhtora entering premises at Eastgate with Divya Reddy. Vehicle reg MH-DEMO-1468 parked outside.,relevant_cell_E
+SURV0040,2026-03-01,60,Surveillance Team Alpha,Central Junction,Medium,1527 hrs - Surveillance Team reports Vivaan Chougule entering premises at Central Junction with Deepak Choguule. Vehicle reg MH-DEMO-9616 parked outside.,relevant_cell_F
+SURV0052,2026-01-31,31,Field Unit 3,Industrial Estate Road,Medium,1809 hrs - Responded to public disturbance call near Industrial Estate Road; resolved on-site.,noise
+SURV0056,2026-01-14,14,Field Unit 3,Warehouse District,Low,"1449 hrs - Logged stationary vehicle near Warehouse District; owner traced, no concern.",noise
+SURV0037,2026-03-04,63,Field Unit 7,Riverside Colony,Low,2228 hrs - Surveillance Team reports Sameer Menon entering premises at Riverside Colony with Vivaan Chougule. Vehicle reg MH-DEMO-1535 parked outside.,relevant_cell_F
+SURV0046,2026-03-03,62,Bravo Watch,Riverside Colony,High,2137 hrs - Surveillance Team reports Veer Gupta entering premises at Riverside Colony with Sunil Bhosale. Vehicle reg MH-DEMO-1293 parked outside.,relevant_cell_F
+SURV0018,2026-02-20,51,Alpha Recon Squad,Lakeview Chowk,Low,0853 hrs - Surveillance Team reports Tushar Mishra entering premises at Lakeview Chowk with Kabir Gupta. Vehicle reg MH-DEMO-9315 parked outside.,relevant_cell_E
+SURV0032,2026-03-02,61,Bravo Watch,Riverside Colony,Medium,1247 hrs - Surveillance Team reports Vivaan Chougule entering premises at Riverside Colony with Sunil Bhosale. Vehicle reg MH-DEMO-7096 parked outside.,relevant_cell_F
+SURV0063,2026-03-04,63,Bravo Watch,Dockside Ward,Medium,1248 hrs - Responded to public disturbance call near Dockside Ward; resolved on-site.,noise
+SURV0066,2026-02-28,59,Alpha Recon Squad,Lakeview Chowk,Medium,"1342 hrs - Logged stationary vehicle near Lakeview Chowk; owner traced, no concern.",noise
+SURV0031,2026-03-01,60,Surveillance Team Bravo,Dockside Ward,Low,1418 hrs - Surveillance Team reports Divya Reddy entering premises at Dockside Ward with Rudra Malhotra. Vehicle reg MH-DEMO-4016 parked outside.,relevant_cell_E
+SURV0027,2026-02-28,59,Alpha Recon Squad,Warehouse District,High,2026 hrs - Surveillance Team reports Rudra Malhotra entering premises at Warehouse District with Tushar Mishra. Vehicle reg MH-DEMO-2919 parked outside.,relevant_cell_E
+SURV0011,2026-02-25,56,Alpha Recon Squad,Old Market Circle,Low,2056 hrs - Surveillance Team reports Rajesh Ansari entering premises at Old Market Circle with Pooja Reddy. Vehicle reg MH-DEMO-1800 parked outside.,relevant_cell_D
+SURV0061,2026-02-19,50,Surveillance Team Alpha,Old Market Circle,Low,1144 hrs - Routine patrol near Old Market Circle; no suspicious activity observed.,noise
+SURV0071,2026-01-20,20,Field Unit 3,New Colony,Medium,0747 hrs - Routine patrol near New Colony; no suspicious activity observed.,noise
+SURV0065,2026-01-31,31,Alpha Recon Squad,Old Market Circle,Medium,1458 hrs - Routine patrol near Old Market Circle; no suspicious activity observed.,noise
+SURV0001,2026-02-21,52,Alpha Recon Squad,Warehouse District,Medium,1825 hrs - Surveillance Team reports Vivaan Kulkarni entering premises at Warehouse District with Snajay Surve. Vehicle reg MH-DEMO-5617 parked outside.,relevant_cell_D
+SURV0003,2026-02-17,48,Surveillance Team Alpha,Warehouse District,Medium,1720 hrs - Surveillance Team reports Sameer Nair entering premises at Warehouse District with Rajan Qureshi. Vehicle reg MH-DEMO-7177 parked outside.,relevant_cell_D
+SURV0068,2026-01-07,7,Field Unit 7,New Colony,Medium,1043 hrs - Routine patrol near New Colony; no suspicious activity observed.,noise
+SURV0043,2026-03-03,62,Surveillance Team Bravo,North Bypass,Medium,2019 hrs - Surveillance Team reports Saemer Menon entering premises at North Bypass with Vivaan Chugule. Vehicle reg MH-DEMO-5634 parked outside.,relevant_cell_F
+SURV0050,2026-01-04,4,Field Unit 7,Hilltop Society,Low,"2129 hrs - Logged stationary vehicle near Hilltop Society; owner traced, no concern.",noise
+SURV0054,2026-03-01,60,Field Unit 3,Station Road,Low,"1657 hrs - Logged stationary vehicle near Station Road; owner traced, no concern.",noise
+SURV0048,2026-01-04,4,Alpha Recon Squad,Station Road,Low,0754 hrs - Responded to public disturbance call near Station Road; resolved on-site.,noise
+SURV0074,2026-02-01,32,Bravo Watch,Central Junction,Low,1240 hrs - Routine patrol near Central Junction; no suspicious activity observed.,noise
+SURV0042,2026-02-27,58,Field Unit 7,Riverside Colony,High,1758 hrs - Surveillance Team reports Rohan Naik entering premises at Riverside Colony with Deepak Chougule. Vehicle reg MH-DEMO-5691 parked outside.,relevant_cell_F
+SURV0005,2026-02-17,48,Field Unit 7,New Colony,Medium,0832 hrs - Surveillance Team reports Vvaan Kulkarni entering premises at New Colony with Sanjay Surve. Vehicle reg MH-DEMO-3735 parked outside.,relevant_cell_D
+SURV0038,2026-02-25,56,Alpha Recon Squad,Hilltop Society,Low,2250 hrs - Surveillance Team reports Vivaan Chougule entering premises at Hilltop Society with Sameer Menon. Vehicle reg MH-DEMO-5243 parked outside.,relevant_cell_F
+SURV0019,2026-02-27,58,Field Unit 7,North Bypass,Medium,0755 hrs - Surveillance Team reports Divya Reddy entering premises at North Bypass with Tushar Mishra. Vehicle reg MH-DEMO-1038 parked outside.,relevant_cell_E
+SURV0015,2026-02-25,56,Surveillance Team Bravo,Old Market Circle,Medium,0810 hrs - Surveillance Team reports Pooja Reddy entering premises at Old Market Circle with Vivaan Kulkarni. Vehicle reg MH-DEMO-2248 parked outside.,relevant_cell_D
+SURV0057,2026-03-19,78,Field Unit 7,North Bypass,Low,1018 hrs - Responded to public disturbance call near North Bypass; resolved on-site.,noise
+SURV0047,2026-01-09,9,Bravo Watch,Riverside Colony,Medium,1842 hrs - Routine patrol near Riverside Colony; no suspicious activity observed.,noise
+SURV0035,2026-02-26,57,Field Unit 7,Industrial Estate Road,High,1223 hrs - Surveillance Team reports Vivaan Chougule entering premises at Industrial Estate Road with Sameer Menon. Vehicle reg MH-DEMO-6118 parked outside.,relevant_cell_F
+SURV0012,2026-02-23,54,Alpha Recon Squad,Warehouse District,High,1404 hrs - Surveillance Team reports Pooj Reddy entering premises at Warehouse District with Rajesh Ansari. Vehicle reg MH-DEMO-2457 parked outside.,relevant_cell_D
+SURV0060,2026-02-10,41,Field Unit 7,Warehouse District,Low,1503 hrs - Routine patrol near Warehouse District; no suspicious activity observed.,noise
+SURV0044,2026-03-03,62,Bravo Watch,North Bypass,Low,2222 hrs - Surveillance Team reports Ver Gupta entering premises at North Bypass with Depak Chougule. Vehicle reg MH-DEMO-4643 parked outside.,relevant_cell_F
+SURV0021,2026-02-20,51,Surveillance Team Bravo,Riverside Colony,Low,1640 hrs - Surveillance Team reports Rajan Mishra entering premises at Riverside Colony with Tushar Mishra. Vehicle reg MH-DEMO-6464 parked outside.,relevant_cell_E
+SURV0010,2026-02-22,53,Surveillance Team Bravo,New Colony,High,1506 hrs - Surveillance Team reports Rajesh Ansari entering premises at New Colony with Rajan Qureshi. Vehicle reg MH-DEMO-4020 parked outside.,relevant_cell_D
+SURV0016,2026-02-22,53,Surveillance Team Bravo,Hilltop Society,Medium,0630 hrs - Surveillance Team reports Rajan Qureshi entering premises at Hilltop Society with Pooja Reddy. Vehicle reg MH-DEMO-3453 parked outside.,relevant_cell_D
+SURV0030,2026-02-21,52,Bravo Watch,Riverside Colony,Low,0606 hrs - Surveillance Team reports Divya Reddy entering premises at Riverside Colony with Sneha Reddy. Vehicle reg MH-DEMO-8087 parked outside.,relevant_cell_E
+SURV0039,2026-02-23,54,Alpha Recon Squad,Industrial Estate Road,Medium,0844 hrs - Surveillance Team reports Sunil Bhosale entering premises at Industrial Estate Road with Vivaan Chougule. Vehicle reg MH-DEMO-1565 parked outside.,relevant_cell_F
+SURV0072,2026-02-09,40,Field Unit 7,Eastgate,Low,2231 hrs - Routine patrol near Eastgate; no suspicious activity observed.,noise
+SURV0009,2026-02-26,57,Surveillance Team Bravo,Warehouse District,Medium,2043 hrs - Surveillance Team reports Rajesh Ansari entering premises at Warehouse District with Snjay Surve. Vehicle reg MH-DEMO-4850 parked outside.,relevant_cell_D
+SURV0028,2026-02-24,55,Surveillance Team Alpha,Old Market Circle,Medium,0624 hrs - Surveillance Team reports Tushar Mishra entering premises at Old Market Circle with Sneha Rdedy. Vehicle reg MH-DEMO-9723 parked outside.,relevant_cell_E
+SURV0026,2026-02-28,59,Surveillance Team Alpha,Hilltop Society,High,0941 hrs - Surveillance Team reports Kabir Gupta entering premises at Hilltop Society with Sneha Reddy. Vehicle reg MH-DEMO-7032 parked outside.,relevant_cell_E
+SURV0013,2026-02-17,48,Surveillance Team Alpha,New Colony,Medium,1058 hrs - Surveillance Team reports Vivaan Kulkarni entering premises at New Colony with Sameer Nair. Vehicle reg MH-DEMO-9488 parked outside.,relevant_cell_D
+SURV0034,2026-03-04,63,Field Unit 7,Hilltop Society,Medium,0616 hrs - Surveillance Team reports Rohan Naik entering premises at Hilltop Society with Veer Gupta. Vehicle reg MH-DEMO-8428 parked outside.,relevant_cell_F
+SURV0036,2026-02-27,58,Field Unit 7,Lakeview Chowk,High,1927 hrs - Surveillance Team reports Vvaan Chougule entering premises at Lakeview Chowk with Sunil Bhosale. Vehicle reg MH-DEMO-8441 parked outside.,relevant_cell_F
+SURV0023,2026-02-28,59,Surveillance Team Alpha,Riverside Colony,Low,0807 hrs - Surveillance Team reports Rudra Malhotra entering premises at Riverside Colony with Tushar Mishra. Vehicle reg MH-DEMO-2719 parked outside.,relevant_cell_E
+SURV0064,2026-03-11,70,Bravo Watch,Hilltop Society,Low,1142 hrs - Responded to public disturbance call near Hilltop Society; resolved on-site.,noise
+SURV0033,2026-03-01,60,Alpha Recon Squad,Hilltop Society,Low,1838 hrs - Surveillance Team reports Deepak Chougule entering premises at Hilltop Society with Sunil Bhosale. Vehicle reg MH-DEMO-7721 parked outside.,relevant_cell_F
+SURV0069,2026-01-11,11,Surveillance Team Alpha,North Bypass,Low,1714 hrs - Responded to public disturbance call near North Bypass; resolved on-site.,noise
+SURV0070,2026-03-27,86,Bravo Watch,Warehouse District,Low,0858 hrs - Routine patrol near Warehouse District; no suspicious activity observed.,noise
+SURV0055,2026-03-22,81,Field Unit 3,Warehouse District,Low,"0833 hrs - Logged stationary vehicle near Warehouse District; owner traced, no concern.",noise
+SURV0007,2026-02-21,52,Field Unit 7,Warehouse District,Medium,0647 hrs - Surveillance Team reports Pooja Reddy entering premises at Warehouse District with Sanjay Surve. Vehicle reg MH-DEMO-3856 parked outside.,relevant_cell_D
+SURV0073,2026-01-17,17,Bravo Watch,Industrial Estate Road,Low,"1412 hrs - Logged stationary vehicle near Industrial Estate Road; owner traced, no concern.",noise
+SURV0051,2026-03-27,86,Field Unit 7,North Bypass,Medium,"0918 hrs - Logged stationary vehicle near North Bypass; owner traced, no concern.",noise
+SURV0029,2026-02-22,53,Surveillance Team Alpha,Station Road,Medium,1802 hrs - Surveillance Team reports Rjan Mishra entering premises at Station Road with Snha Reddy. Vehicle reg MH-DEMO-1494 parked outside.,relevant_cell_E
+SURV0062,2026-01-06,6,Surveillance Team Bravo,Warehouse District,Medium,2002 hrs - Responded to public disturbance call near Warehouse District; resolved on-site.,noise
+SURV0053,2026-01-22,22,Field Unit 3,Station Road,Medium,"1547 hrs - Logged stationary vehicle near Station Road; owner traced, no concern.",noise
+SURV0014,2026-02-24,55,Bravo Watch,Hilltop Society,Low,1703 hrs - Surveillance Team reports Pooja Reddy entering premises at Hilltop Society with Rajesh Ansari. Vehicle reg MH-DEMO-1194 parked outside.,relevant_cell_D
+SURV0058,2026-01-13,13,Surveillance Team Alpha,Warehouse District,Medium,"0823 hrs - Logged stationary vehicle near Warehouse District; owner traced, no concern.",noise
+SURV0017,2026-02-21,52,Surveillance Team Alpha,Dockside Ward,Medium,0852 hrs - Surveillance Team reports Kabir Gupta entering premises at Dockside Ward with Divya Reddy. Vehicle reg MH-DEMO-8840 parked outside.,relevant_cell_E
+SURV0022,2026-02-22,53,Field Unit 3,North Bypass,High,0603 hrs - Surveillance Team reports Divya Rddy entering premises at North Bypass with Rudra Malhotra. Vehicle reg MH-DEMO-4478 parked outside.,relevant_cell_E
+SURV0045,2026-02-27,58,Bravo Watch,Lakeview Chowk,Medium,1844 hrs - Surveillance Team reports Sunil Bhosale entering premises at Lakeview Chowk with Vivana Chougule. Vehicle reg MH-DEMO-9711 parked outside.,relevant_cell_F
+SURV0006,2026-02-22,53,Bravo Watch,Old Market Circle,Low,2121 hrs - Surveillance Team reports Vivaan Kulkarni entering premises at Old Market Circle with Rajesh Ansari. Vehicle reg MH-DEMO-1785 parked outside.,relevant_cell_D
+SURV0025,2026-02-23,54,Alpha Recon Squad,Hilltop Society,Low,1228 hrs - Surveillance Team reports Rajan Mishra entering premises at Hilltop Society with Sneha Reddy. Vehicle reg MH-DEMO-1537 parked outside.,relevant_cell_E
+SURV0002,2026-02-17,48,Field Unit 7,Dockside Ward,High,1238 hrs - Surveillance Team reports Rajan Qureshi entering premises at Dockside Ward with Pooja Rddy. Vehicle reg MH-DEMO-8609 parked outside.,relevant_cell_D
+SURV0004,2026-02-17,48,Field Unit 7,Lakeview Chowk,Medium,1532 hrs - Surveillance Team reports Vivaan Kulkarni entering premises at Lakeview Chowk with Sameer Nair. Vehicle reg MH-DEMO-1663 parked outside.,relevant_cell_D
+SURV0008,2026-02-20,51,Bravo Watch,Eastgate,Low,1209 hrs - Surveillance Team reports Sanjya Surve entering premises at Eastgate with Vivaan Kulkarni. Vehicle reg MH-DEMO-1526 parked outside.,relevant_cell_D

@@ -1,0 +1,14 @@
+history_id,person_id,prior_cases,category
+HIST-3-001,P01,3,Illicit Finance
+HIST-3-009,P09,4,Logistics
+HIST-3-014,P14,4,Logistics
+HIST-3-017,P17,4,Illicit Finance
+HIST-3-025,P25,1,Illicit Finance
+HIST-3-033,P33,2,Extortion
+HIST-3-037,P37,2,Illicit Finance
+HIST-3-041,P41,2,Illicit Finance
+HIST-3-049,P49,3,Extortion
+HIST-3-057,P57,3,Extortion
+HIST-3-061,P61,3,Logistics
+HIST-3-065,P65,4,Illicit Finance
+HIST-3-073,P73,1,Logistics

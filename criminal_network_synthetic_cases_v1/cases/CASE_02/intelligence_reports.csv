@@ -1,0 +1,5 @@
+report_id,person_id,day,text,confidence
+INT-2-001,P11,20,Source report indicates possible contact with illegal arms network.,0.82
+INT-2-002,P28,30,Source report indicates possible contact with smuggling network.,0.82
+INT-2-003,P44,40,Source report indicates possible contact with financial facilitation network.,0.82
+INT-2-004,P52,50,Source report indicates possible contact with logistics network.,0.82

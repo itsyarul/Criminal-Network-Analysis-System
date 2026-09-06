@@ -1,0 +1,4 @@
+report_id,person_id,day,text,confidence
+INT-1-001,P07,20,Source report indicates possible contact with drug distribution network.,0.82
+INT-1-002,P19,30,Source report indicates possible contact with arms supply network.,0.82
+INT-1-003,P31,40,Source report indicates possible contact with logistics network.,0.82

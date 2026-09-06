@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: criminal-neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/criminal123
+      - NEO4J_PLUGINS=["graph-data-science"]
+      - NEO4J_dbms_security_procedures_unrestricted=gds.*
+      - NEO4J_dbms_memory_heap_initial__size=1G
+      - NEO4J_dbms_memory_heap_max__size=2G
+      - NEO4J_dbms_memory_pagecache_size=512M
+      - NEO4JLABS_PLUGINS=["graph-data-science"]
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/var/lib/neo4j/import
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "criminal123", "RETURN 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    container_name: criminal-api
+    ports:
+      - "8000:8000"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=criminal123
+      - NEO4J_DATABASE=neo4j
+    volumes:
+      - ./data:/app/data
+      - ./audit.jsonl:/app/audit.jsonl
+    command: uvicorn backend.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:

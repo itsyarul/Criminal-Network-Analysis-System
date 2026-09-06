@@ -1,0 +1,97 @@
+record_id,person_id,name,alias,dob,prior_offences,gang_affiliation,known_address,ground_truth_flag
+CRIM0058,F10,Pooja Nair,Pooja,1976-09-26,2019 - IPC 506 (Criminal intimidation); 2022 - IPC 120B (criminal conspiracy),F-Extortion Crew,"120, Eastgate",network_F
+CRIM0014,D14,Anwar Chavan,,1993-08-18,2021 - IPC 506 (Criminal intimidation); 2023 - IPC 120B (criminal conspiracy); 2023 - Excise Act violation,D-Cell Syndicate,"33, Warehouse District",network_D
+CRIM0034,E10,Neha Menon,Neha,1994-07-16,2022 - NDPS Act Section 8/20; 2019 - NDPS Act Section 8/20,E-Smuggling Outfit,"106, Warehouse District",network_E
+CRIM0009,D9,Kavita Baig,,1978-12-11,2019 - Arms Act Section 25,D-Cell Syndicate,"108, Station Road",network_D
+CRIM0063,F15,Gautam Shah,,1981-02-21,2021 - IPC 506 (Criminal intimidation); 2022 - NDPS Act Section 8/20; 2024 - IPC 384 (Extortion),F-Extortion Crew,"68, New Colony",network_F
+CRIM0010,D10,Veer Gaikwad,,1979-08-06,2015 - IPC 120B (criminal conspiracy); 2020 - IPC 384 (Extortion); 2023 - Excise Act violation,D-Cell Syndicate,"183, Eastgate",network_D
+CRIM0002,D2,Vivaan Kulkarni,Vivaan,1978-05-18,2019 - Arms Act Section 25; 2021 - IPC 384 (Extortion),D-Cell Syndicate,"181, Station Road",network_D
+CRIM0069,F21,Siddharth Pillai,,1973-09-13,2024 - NDPS Act Section 8/20; 2018 - IPC 120B (criminal conspiracy),F-Extortion Crew,"190, Old Market Circle",network_F
+CRIM0080,M12,Tanya Malhotra,,1970-10-25,2023 - IPC 506 (Criminal intimidation),Unaffiliated,"191, Dockside Ward",noise
+CRIM0096,M33,Manoj Nair,,2000-01-22,2022 - IPC 379 (Theft),Unaffiliated,"177, Station Road",noise
+CRIM0008,D8,Vinod Kapoor,,1976-11-20,2015 - IPC 379 (Theft),D-Cell Syndicate,"119, Eastgate",network_D
+CRIM0039,E15,Kabir Gupta,,1987-08-20,2018 - NDPS Act Section 8/20,E-Smuggling Outfit,"191, Central Junction",network_E
+CRIM0020,D20,Harshit Verma,,2001-04-21,2017 - Excise Act violation; 2019 - Excise Act violation; 2021 - Arms Act Section 25,D-Cell Syndicate,"112, Central Junction",network_D
+CRIM0005,D5,Rahul Pathan,,1998-07-12,2016 - Excise Act violation; 2022 - Excise Act violation; 2024 - IPC 506 (Criminal intimidation),D-Cell Syndicate,"199, Station Road",network_D
+CRIM0090,M30,Neha Patel,,1991-09-05,2022 - IPC 379 (Theft),Unaffiliated,"10, Eastgate",noise
+CRIM0044,E20,Naksh Rao,Naksh,1981-05-17,2023 - IPC 379 (Theft); 2022 - IPC 506 (Criminal intimidation); 2024 - NDPS Act Section 8/20,E-Smuggling Outfit,"84, Station Road",network_E
+CRIM0028,E4,Sneha Reddy,,2003-12-17,2023 - Arms Act Section 25; 2025 - IPC 506 (Criminal intimidation); 2023 - Arms Act Section 25,E-Smuggling Outfit,"66, Industrial Estate Road",network_E
+CRIM0031,E7,Gautam Salunkhe,,1982-06-04,2025 - IPC 384 (Extortion); 2024 - NDPS Act Section 8/20,E-Smuggling Outfit,"153, New Colony",network_E
+CRIM0030,E6,Javed Kamble,,1993-04-17,2017 - IPC 506 (Criminal intimidation),E-Smuggling Outfit,"11, Industrial Estate Road",network_E
+CRIM0062,F14,Neha Desai,,1986-03-16,2024 - Arms Act Section 25; 2019 - IPC 379 (Theft),F-Extortion Crew,"103, Eastgate",network_F
+CRIM0093,M16,Naveen Dutta,,2003-05-23,2021 - Excise Act violation,Unaffiliated,"28, Lakeview Chowk",noise
+CRIM0003,D3,Rajesh Ansari,,1978-05-18,2016 - IPC 379 (Theft); 2024 - Arms Act Section 25; 2023 - Excise Act violation,D-Cell Syndicate,"13, Lakeview Chowk",network_D
+CRIM0033,E9,Rohan Malik,Rohan,1991-03-18,2023 - IPC 506 (Criminal intimidation); 2015 - IPC 379 (Theft); 2016 - NDPS Act Section 8/20,E-Smuggling Outfit,"167, Dockside Ward",network_E
+CRIM0083,M20,Deepa Jain,,1973-08-01,2023 - IPC 506 (Criminal intimidation),Unaffiliated,"149, Old Market Circle",noise
+CRIM0087,M21,Naveen Patel,,1991-04-22,2023 - IPC 506 (Criminal intimidation),Unaffiliated,"138, Station Road",noise
+CRIM0094,M9,Divya Mishra,,1980-04-16,2022 - IPC 379 (Theft),Unaffiliated,"135, Central Junction",noise
+CRIM0032,E8,Arjun Shah,,2005-02-19,2016 - IPC 384 (Extortion),E-Smuggling Outfit,"189, North Bypass",network_E
+CRIM0073,Y1,Ramesh Singh,,1988-07-22,2020 - NDPS Act Section 8/20; 2025 - NDPS Act Section 8/20,Bridge Network,"17, Industrial Estate Road",network_Bridge
+CRIM0012,D12,Sanjay Surve,,1984-03-09,2017 - Excise Act violation,D-Cell Syndicate,"32, North Bypass",network_D
+CRIM0081,M32,Nisha Gupta,,1994-02-04,2022 - IPC 379 (Theft),Unaffiliated,"91, Hilltop Society",noise
+CRIM0089,M10,Kiran Kulkarni,,2004-12-23,2022 - IPC 379 (Theft),Unaffiliated,"80, Station Road",noise
+CRIM0050,F2,Vivaan Chougule,Vivaan,1989-05-02,2024 - IPC 506 (Criminal intimidation); 2016 - NDPS Act Section 8/20,F-Extortion Crew,"154, Dockside Ward",network_F
+CRIM0084,M11,Swati Reddy,,2000-10-06,2023 - IPC 506 (Criminal intimidation),Unaffiliated,"104, Hilltop Society",noise
+CRIM0042,E18,Sahil Chatterjee,,1971-11-08,2019 - IPC 506 (Criminal intimidation); 2021 - Excise Act violation,E-Smuggling Outfit,"143, Dockside Ward",network_E
+CRIM0077,Y5,Sameer Bhatia,,1974-02-06,2017 - IPC 384 (Extortion),Bridge Network,"33, Dockside Ward",network_Bridge
+CRIM0079,M15,Pallavi Bhatia,,1997-11-15,2021 - Excise Act violation,Unaffiliated,"189, Industrial Estate Road",noise
+CRIM0051,F3,Sameer Menon,,1984-04-22,2018 - IPC 384 (Extortion); 2016 - NDPS Act Section 8/20,F-Extortion Crew,"28, Industrial Estate Road",network_F
+CRIM0061,F13,Dhruv Yadav,,1985-06-12,2025 - Arms Act Section 25; 2017 - Arms Act Section 25,F-Extortion Crew,"86, Hilltop Society",network_F
+CRIM0072,F24,Meena Bhosale,,1993-01-10,2016 - IPC 120B (criminal conspiracy),F-Extortion Crew,"111, Warehouse District",network_F
+CRIM0041,E17,Vivaan Patel,Vivaan,1995-06-12,2022 - IPC 506 (Criminal intimidation),E-Smuggling Outfit,"34, Industrial Estate Road",network_E
+CRIM0025,E1,Divya Reddy,,2003-03-04,2021 - IPC 506 (Criminal intimidation); 2022 - NDPS Act Section 8/20,E-Smuggling Outfit,"94, Eastgate",network_E
+CRIM0035,E11,Kavita Sawant,,1986-08-28,2022 - IPC 384 (Extortion); 2021 - IPC 379 (Theft); 2017 - NDPS Act Section 8/20,E-Smuggling Outfit,"41, Station Road",network_E
+CRIM0029,E5,Imran Shah,,2000-05-24,2017 - Excise Act violation; 2019 - Arms Act Section 25,E-Smuggling Outfit,"174, Warehouse District",network_E
+CRIM0056,F8,Vijay Iyer,Vijay,1997-04-15,2019 - Excise Act violation; 2017 - Arms Act Section 25; 2019 - IPC 506 (Criminal intimidation),F-Extortion Crew,"21, Eastgate",network_F
+CRIM0078,Y6,Veer Bansal,Veer,2002-10-21,2018 - NDPS Act Section 8/20,Bridge Network,"61, Industrial Estate Road",network_Bridge
+CRIM0015,D15,Meena Desai,Meena,1979-05-01,2015 - IPC 384 (Extortion); 2017 - IPC 120B (criminal conspiracy); 2016 - IPC 379 (Theft),D-Cell Syndicate,"113, Riverside Colony",network_D
+CRIM0047,E23,Ashok Yadav,,1982-01-27,2024 - NDPS Act Section 8/20,E-Smuggling Outfit,"50, New Colony",network_E
+CRIM0070,F22,Rakesh Salunkhe,Rakesh,2001-02-02,2025 - IPC 379 (Theft); 2025 - IPC 506 (Criminal intimidation); 2024 - Excise Act violation,F-Extortion Crew,"127, Old Market Circle",network_F
+CRIM0026,E2,Tushar Mishra,,1990-08-20,2016 - IPC 120B (criminal conspiracy); 2024 - Excise Act violation,E-Smuggling Outfit,"84, Eastgate",network_E
+CRIM0091,M35,Alok Bhatia,,1976-03-27,2021 - Excise Act violation,Unaffiliated,"149, Station Road",noise
+CRIM0067,F19,Aarav Patel,,1985-08-09,2022 - IPC 120B (criminal conspiracy); 2018 - Arms Act Section 25; 2023 - IPC 384 (Extortion),F-Extortion Crew,"64, Old Market Circle",network_F
+CRIM0011,D11,Pooja Reddy,,2000-12-13,2023 - IPC 120B (criminal conspiracy); 2025 - IPC 384 (Extortion),D-Cell Syndicate,"114, Old Market Circle",network_D
+CRIM0088,M28,Priya Sinha,,1985-03-08,2023 - IPC 506 (Criminal intimidation),Unaffiliated,"180, Lakeview Chowk",noise
+CRIM0082,M19,Manoj Naidu,,2003-12-20,2021 - Excise Act violation,Unaffiliated,"146, Hilltop Society",noise
+CRIM0071,F23,Atharva Kapoor,Atharva,1987-09-08,2024 - IPC 120B (criminal conspiracy); 2025 - Excise Act violation,F-Extortion Crew,"66, Hilltop Society",network_F
+CRIM0022,D22,Rajan Sharma,,1979-12-02,2020 - IPC 384 (Extortion); 2016 - IPC 506 (Criminal intimidation); 2023 - Excise Act violation,D-Cell Syndicate,"199, Lakeview Chowk",network_D
+CRIM0023,D23,Aarav Sawant,,1993-06-24,2024 - NDPS Act Section 8/20; 2019 - IPC 120B (criminal conspiracy),D-Cell Syndicate,"93, New Colony",network_D
+CRIM0018,D18,Harshit Iyer,Harshit,1985-02-13,2020 - Arms Act Section 25; 2021 - Arms Act Section 25; 2024 - IPC 506 (Criminal intimidation),D-Cell Syndicate,"138, Industrial Estate Road",network_D
+CRIM0013,D13,Shaurya Qureshi,Shaurya,2000-03-18,2022 - IPC 506 (Criminal intimidation); 2025 - IPC 379 (Theft); 2022 - Arms Act Section 25,D-Cell Syndicate,"159, Riverside Colony",network_D
+CRIM0019,D19,Vikram Deshmukh,,2001-01-11,2017 - IPC 120B (criminal conspiracy); 2015 - NDPS Act Section 8/20; 2021 - IPC 379 (Theft),D-Cell Syndicate,"30, Riverside Colony",network_D
+CRIM0092,M22,Swati Bansal,,1973-09-27,2021 - Excise Act violation,Unaffiliated,"194, North Bypass",noise
+CRIM0016,D16,Ansh Menon,,1978-08-21,2025 - NDPS Act Section 8/20,D-Cell Syndicate,"69, Central Junction",network_D
+CRIM0068,F20,Neha Kadam,,1986-09-07,2018 - Excise Act violation; 2020 - IPC 506 (Criminal intimidation),F-Extortion Crew,"200, New Colony",network_F
+CRIM0074,Y2,Santosh Kulkarni,Santosh,1972-12-22,2023 - IPC 120B (criminal conspiracy); 2015 - IPC 384 (Extortion); 2022 - NDPS Act Section 8/20,Bridge Network,"145, Eastgate",network_Bridge
+CRIM0059,F11,Deepak Chougule,,1993-07-21,2017 - Arms Act Section 25; 2016 - IPC 384 (Extortion); 2020 - IPC 506 (Criminal intimidation),F-Extortion Crew,"15, Lakeview Chowk",network_F
+CRIM0036,E12,Siddharth Kapoor,Siddharth,1972-12-11,2024 - IPC 506 (Criminal intimidation); 2024 - IPC 384 (Extortion); 2021 - IPC 120B (criminal conspiracy),E-Smuggling Outfit,"80, Old Market Circle",network_E
+CRIM0027,E3,Rajan Mishra,,1993-11-13,2016 - NDPS Act Section 8/20,E-Smuggling Outfit,"113, Warehouse District",network_E
+CRIM0095,M25,Karishma Nair,,1995-04-22,2023 - IPC 506 (Criminal intimidation),Unaffiliated,"179, Riverside Colony",noise
+CRIM0086,M27,Sonia Gupta,,1995-11-05,2021 - Excise Act violation,Unaffiliated,"56, New Colony",noise
+CRIM0043,E19,Priya Bhatia,,1977-06-28,2020 - IPC 120B (criminal conspiracy); 2024 - Excise Act violation; 2020 - NDPS Act Section 8/20,E-Smuggling Outfit,"37, Hilltop Society",network_E
+CRIM0076,Y4,Siddharth Verma,Siddharth,1979-06-15,2022 - Excise Act violation; 2023 - IPC 120B (criminal conspiracy),Bridge Network,"164, Central Junction",network_Bridge
+CRIM0057,F9,Amit Kulkarni,Amit,1981-05-20,2022 - IPC 379 (Theft); 2018 - IPC 379 (Theft); 2023 - IPC 379 (Theft),F-Extortion Crew,"75, Station Road",network_F
+CRIM0004,D4,Sameer Nair,,1999-05-22,2023 - IPC 506 (Criminal intimidation); 2022 - IPC 379 (Theft); 2025 - Excise Act violation,D-Cell Syndicate,"146, Central Junction",network_D
+CRIM0045,E21,Mohan Sharma,Mohan,1999-01-10,2022 - Arms Act Section 25; 2021 - Arms Act Section 25; 2015 - Excise Act violation,E-Smuggling Outfit,"14, Warehouse District",network_E
+CRIM0066,F18,Dhruv Sheikh,,1973-12-23,2016 - Excise Act violation; 2024 - Arms Act Section 25; 2016 - IPC 384 (Extortion),F-Extortion Crew,"134, North Bypass",network_F
+CRIM0048,E24,Farhan Salunkhe,,1997-10-04,2025 - NDPS Act Section 8/20; 2024 - IPC 384 (Extortion); 2018 - NDPS Act Section 8/20,E-Smuggling Outfit,"55, North Bypass",network_E
+CRIM0065,F17,Naksh Bansal,,1978-12-10,2025 - IPC 120B (criminal conspiracy); 2015 - IPC 384 (Extortion); 2018 - Arms Act Section 25,F-Extortion Crew,"106, Old Market Circle",network_F
+CRIM0064,F16,Kunal Desai,,1993-05-05,2018 - Excise Act violation,F-Extortion Crew,"97, Riverside Colony",network_F
+CRIM0054,F6,Alok Jain,,1985-12-20,2022 - IPC 379 (Theft),F-Extortion Crew,"25, Central Junction",network_F
+CRIM0053,F5,Rohan Thakur,,1972-07-13,2016 - IPC 506 (Criminal intimidation); 2024 - Arms Act Section 25,F-Extortion Crew,"103, Industrial Estate Road",network_F
+CRIM0006,D6,Vinod Desai,,2005-01-10,2020 - Arms Act Section 25,D-Cell Syndicate,"104, Industrial Estate Road",network_D
+CRIM0001,D1,Rajan Qureshi,,1972-05-05,2024 - IPC 379 (Theft); 2021 - Excise Act violation; 2016 - IPC 506 (Criminal intimidation),D-Cell Syndicate,"20, Hilltop Society",network_D
+CRIM0021,D21,Sunil Shaikh,,2004-02-16,2021 - IPC 506 (Criminal intimidation),D-Cell Syndicate,"39, Hilltop Society",network_D
+CRIM0037,E13,Kiran Sinha,,1993-03-17,2025 - Arms Act Section 25; 2020 - IPC 379 (Theft); 2019 - IPC 506 (Criminal intimidation),E-Smuggling Outfit,"168, New Colony",network_E
+CRIM0007,D7,Sameer Pandey,,1997-08-23,2024 - Excise Act violation,D-Cell Syndicate,"182, Lakeview Chowk",network_D
+CRIM0060,F12,Rohan Naik,,1974-10-27,2019 - Excise Act violation; 2019 - IPC 120B (criminal conspiracy),F-Extortion Crew,"108, Riverside Colony",network_F
+CRIM0055,F7,Vivaan Baig,,1985-12-01,2025 - Excise Act violation,F-Extortion Crew,"147, Old Market Circle",network_F
+CRIM0040,E16,Rudra Malhotra,,1976-01-13,2023 - Arms Act Section 25; 2017 - IPC 506 (Criminal intimidation); 2015 - Excise Act violation,E-Smuggling Outfit,"122, New Colony",network_E
+CRIM0024,D24,Naksh Chougule,,1991-04-15,2019 - IPC 120B (criminal conspiracy),D-Cell Syndicate,"145, New Colony",network_D
+CRIM0038,E14,Dinesh Pillai,,1979-10-18,2019 - Arms Act Section 25; 2016 - IPC 379 (Theft),E-Smuggling Outfit,"115, Lakeview Chowk",network_E
+CRIM0085,M18,Sneha Rao,,2001-02-20,2021 - Excise Act violation,Unaffiliated,"34, Riverside Colony",noise
+CRIM0046,E22,Reyansh Jain,,1971-01-09,2020 - IPC 384 (Extortion); 2021 - IPC 120B (criminal conspiracy); 2022 - NDPS Act Section 8/20,E-Smuggling Outfit,"159, Station Road",network_E
+CRIM0049,F1,Veer Gupta,Veer,2001-07-26,2025 - Excise Act violation; 2024 - NDPS Act Section 8/20,F-Extortion Crew,"195, North Bypass",network_F
+CRIM0075,Y3,Siddharth Mehta,,1980-05-23,2023 - Excise Act violation,Bridge Network,"103, Central Junction",network_Bridge
+CRIM0052,F4,Sunil Bhosale,,1973-08-12,2020 - IPC 379 (Theft); 2024 - IPC 384 (Extortion),F-Extortion Crew,"58, Eastgate",network_F
+CRIM0017,D17,Krishna Nair,,1992-08-04,2016 - Arms Act Section 25; 2018 - IPC 506 (Criminal intimidation); 2024 - NDPS Act Section 8/20,D-Cell Syndicate,"169, Eastgate",network_D
