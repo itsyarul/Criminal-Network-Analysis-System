@@ -1,4 +1,0 @@
-surveillance_id,person_id,day,location,text,confidence
-SURV-3-001,P14,25,LOC-2,Observed meeting potentially related to extortion activity.,0.78
-SURV-3-002,P37,34,LOC-3,Observed meeting potentially related to illicit finance activity.,0.78
-SURV-3-003,P61,43,LOC-4,Observed meeting potentially related to logistics activity.,0.78

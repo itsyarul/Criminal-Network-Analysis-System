@@ -46,7 +46,10 @@ from backend.analytics.takedown_simulator import (
     get_takedown_strategies,
     generate_operation_order
 )
-from backend.auth import CAN_UPLOAD, CAN_VIEW_GRAPH, REQUIRE_SUPERVISOR, authenticate, create_token, get_current_user
+from backend.auth import (
+    CAN_UPLOAD, CAN_VIEW_GRAPH, REQUIRE_SUPERVISOR, AccountStatusError,
+    authenticate, create_token, get_current_user,
+)
 from backend.loader import load_all
 from backend.config import DATA_DIR, PROJECT_ROOT
 from backend.ingestion.detector import detect_schema, detect_format
@@ -100,17 +103,55 @@ class LoginRequest(BaseModel):
 
 @app.post("/login")
 def login(payload: LoginRequest):
-    user = authenticate(payload.username, payload.password)
+    try:
+        user = authenticate(payload.username, payload.password)
+    except AccountStatusError as e:
+        audit_log(f"POST /login blocked ({e.status_name}) for '{(payload.username or '').strip().lower()}'", [])
+        raise HTTPException(status_code=403, detail=e.detail)
     if not user:
         audit_log(f"POST /login failed for '{(payload.username or '').strip().lower()}'", [])
         raise HTTPException(status_code=401, detail="Invalid username or password")
     audit_log(f"POST /login {user['username']} ({user['role']})", [user["username"]])
     return {"access_token": create_token(user), "token_type": "bearer",
-            "username": user["username"], "role": user["role"], "name": user["name"]}
+            "username": user["username"], "role": user["role"], "name": user["name"],
+            "department": user.get("department") or "", "badge_id": user.get("badge_id") or "",
+            "status": user.get("status") or "active"}
 
 @app.get("/me")
 def me(user: dict = Depends(get_current_user)):
     return user
+
+
+class AccessRequest(BaseModel):
+    username: str
+    password: str
+    role: str = "investigator"
+    name: str = ""
+    badge_id: str = ""
+    department: str = ""
+    justification: str = ""
+
+
+def _request_access(payload: AccessRequest) -> dict:
+    from backend.auth import request_access_user
+
+    try:
+        return request_access_user(
+            payload.username, payload.password, (payload.role or "").strip().lower(),
+            name=payload.name, badge_id=payload.badge_id,
+            department=payload.department, justification=payload.justification,
+        )
+    except ValueError as e:
+        raise HTTPException(status_code=400 if "already taken" not in str(e) else 409, detail=str(e))
+
+
+@app.post("/auth/request-access", status_code=201)
+def request_access(payload: AccessRequest):
+    """Departmental access request — goes to PENDING_APPROVAL, no token issued."""
+    profile = _request_access(payload)
+    audit_log(f"POST /auth/request-access {profile['username']} ({profile['role']}) pending", [profile["username"]])
+    return {**profile,
+            "message": "Access request submitted successfully for administrative review."}
 
 
 class RegisterRequest(BaseModel):
@@ -122,15 +163,153 @@ class RegisterRequest(BaseModel):
 
 @app.post("/register", status_code=201)
 def register(payload: RegisterRequest):
-    from backend.auth import register_user
+    """Deprecated alias — open self-registration is removed.
+
+    Behaves like POST /auth/request-access: creates a PENDING_APPROVAL
+    request and returns 201 WITHOUT a session token.
+    """
+    profile = _request_access(AccessRequest(
+        username=payload.username, password=payload.password,
+        role=payload.role, name=payload.name,
+    ))
+    audit_log(f"POST /register {profile['username']} ({profile['role']}) pending", [profile["username"]])
+    return {**profile,
+            "message": "Access request submitted successfully for administrative review."}
+
+
+# -------------------------------------------------------------
+# System Administrator & Department Clearance APIs (supervisor only)
+# -------------------------------------------------------------
+class AdminCreateUserRequest(BaseModel):
+    username: str
+    password: str
+    role: str = "investigator"
+    name: str = ""
+    badge_id: str = ""
+    department: str = ""
+
+
+class ApproveRequest(BaseModel):
+    role: Optional[str] = None
+
+
+class RejectRequest(BaseModel):
+    reason: str = ""
+
+
+class StatusUpdateRequest(BaseModel):
+    status: str
+
+
+class ResetPasswordRequest(BaseModel):
+    new_password: Optional[str] = None
+
+
+@app.get("/admin/users")
+def admin_list_users(status: Optional[str] = Query(None), role: Optional[str] = Query(None),
+                     q: Optional[str] = Query(None), user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.auth import list_all_users
+
+    users = list_all_users(status_filter=status, role_filter=role, search=q)
+    return {"users": users, "count": len(users)}
+
+
+@app.post("/admin/users", status_code=201)
+def admin_create_user(payload: AdminCreateUserRequest, user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.auth import admin_create_user as _provision
 
     try:
-        user = register_user(payload.username, payload.password, (payload.role or "").strip().lower(), payload.name)
+        profile = _provision(payload.username, payload.password, (payload.role or "").strip().lower(),
+                             name=payload.name, badge_id=payload.badge_id,
+                             department=payload.department, created_by=user["username"])
     except ValueError as e:
         raise HTTPException(status_code=400 if "already taken" not in str(e) else 409, detail=str(e))
-    audit_log(f"POST /register {user['username']} ({user['role']})", [user["username"]])
-    return {"access_token": create_token(user), "token_type": "bearer",
-            "username": user["username"], "role": user["role"], "name": user["name"]}
+    audit_log(f"POST /admin/users {profile['username']} provisioned by {user['username']}", [profile["username"]])
+    return profile
+
+
+@app.post("/admin/users/{username}/approve")
+def admin_approve_user(username: str, payload: ApproveRequest = None, user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.auth import approve_user
+
+    try:
+        profile = approve_user(username, approved_by=user["username"],
+                               role=(payload.role if payload else None))
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    audit_log(f"POST /admin/users/{username}/approve by {user['username']}", [username])
+    return profile
+
+
+@app.post("/admin/users/{username}/reject")
+def admin_reject_user(username: str, payload: RejectRequest = None, user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.auth import reject_user
+
+    try:
+        profile = reject_user(username, rejected_by=user["username"],
+                              reason=(payload.reason if payload else ""))
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    audit_log(f"POST /admin/users/{username}/reject by {user['username']}", [username])
+    return profile
+
+
+@app.patch("/admin/users/{username}/status")
+def admin_update_status(username: str, payload: StatusUpdateRequest, user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.auth import update_user_status
+
+    try:
+        profile = update_user_status(username, payload.status, actor=user["username"])
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    audit_log(f"PATCH /admin/users/{username}/status={profile['status']} by {user['username']}", [username])
+    return profile
+
+
+@app.post("/admin/users/{username}/reset-password")
+def admin_reset_password(username: str, payload: ResetPasswordRequest = None, user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.auth import admin_reset_password as _reset
+
+    try:
+        profile = _reset(username, (payload.new_password if payload else None))
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+    audit_log(f"POST /admin/users/{username}/reset-password by {user['username']}", [username])
+    return profile
+
+
+@app.get("/admin/audit-trail")
+def admin_audit_trail(limit: int = Query(200, ge=1, le=2000), q: Optional[str] = Query(None),
+                      user: dict = Depends(REQUIRE_SUPERVISOR)):
+    from backend.config import AUDIT_PATH
+
+    events = []
+    try:
+        if AUDIT_PATH.exists():
+            with open(AUDIT_PATH, encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        evt = json.loads(line)
+                    except Exception:
+                        evt = {"raw": line[:300]}
+                    if q and q.lower() not in json.dumps(evt).lower():
+                        continue
+                    events.append(evt)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Could not read audit trail: {e}")
+    events = events[-limit:][::-1]
+    return {"events": events, "count": len(events)}
 
 @app.post("/investigations")
 def create_inv(payload: InvestigationCreate, user: dict = Depends(get_current_user)):
@@ -375,12 +554,20 @@ def people_search(q: str = Query(..., description="Search person by name, ID, ph
 async def people_search_image(
     file: Optional[UploadFile] = File(None),
     image_base64: Optional[str] = Form(None),
+    features_json: Optional[str] = Form(None),
     top_k: int = Form(6),
     user: dict = Depends(get_current_user)
 ):
     """AI Facial Recognition Search: match an uploaded suspect photo or webcam frame against criminal mugshots."""
     from backend.analytics.face_search import search_face
     img_bytes = b""
+    features = None
+    if features_json:
+        try:
+            features = json.loads(features_json)
+        except Exception:
+            pass
+
     if file is not None:
         img_bytes = await file.read()
     elif image_base64:
@@ -391,10 +578,10 @@ async def people_search_image(
         except Exception as e:
             raise HTTPException(status_code=400, detail=f"Invalid base64 image data: {e}")
 
-    if not img_bytes:
-        raise HTTPException(status_code=400, detail="No image provided (upload file or image_base64)")
+    if not img_bytes and not features:
+        raise HTTPException(status_code=400, detail="No image provided (upload file, image_base64, or features_json)")
 
-    matches = search_face(img_bytes, top_k=top_k)
+    matches = search_face(image_bytes=img_bytes, features=features, top_k=top_k)
     audit_log("POST /people/search-image", [m["id"] for m in matches[:3]])
     return {
         "status": "success",
@@ -1064,6 +1251,7 @@ def verify_hash_endpoint(payload: VerifyHashRequest, user: dict = Depends(get_cu
     officer = user.get("name") or user.get("username", "Authorized Law Enforcement Officer")
     ledger = build_blockchain_ledger(datasets=datasets, graph=serial, case_name=case_name, officer=officer)
     res = verify_evidence_hash_in_ledger(q, ledger)
+    res["target_hash"] = res.get("computed_hash", q)
     audit_log(f"/verify-evidence-hash query='{q[:30]}'", [res.get("computed_hash", "")])
     return res
 
@@ -1076,6 +1264,7 @@ def verify_inv_hash_endpoint(iid: str, payload: VerifyHashRequest, user: dict = 
     officer = user.get("name") or user.get("username", "Authorized Law Enforcement Officer")
     ledger = build_blockchain_ledger(datasets=datasets, graph=serial, case_name=case_name, officer=officer)
     res = verify_evidence_hash_in_ledger(q, ledger)
+    res["target_hash"] = res.get("computed_hash", q)
     audit_log(f"/investigations/{iid}/verify-evidence-hash query='{q[:30]}'", [res.get("computed_hash", "")])
     return res
 

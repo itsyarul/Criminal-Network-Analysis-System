@@ -21,6 +21,15 @@ from backend.graph.builder import load_graph_serial
 from backend.analytics.centrality import compute_betweenness_centrality, compute_pagerank
 
 
+def _txn_amount(t: Dict) -> float:
+    """Transaction value — records carry `amount_inr` (possibly comma-formatted)."""
+    raw = t.get("amount_inr", t.get("amount", 0))
+    try:
+        return float(str(raw).replace(",", "") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 def _build_adj_list(nodes: List[Dict], edges: List[Dict], excluded_nodes: Set[str]) -> Dict[str, Set[str]]:
     """Build adjacency list omitting excluded nodes."""
     adj = defaultdict(set)
@@ -197,7 +206,7 @@ def simulate_takedown(
     for t in txns:
         s_from = str(t.get("sender_account") or "")
         s_to = str(t.get("receiver_account") or "")
-        amt = float(t.get("amount") or 0)
+        amt = _txn_amount(t)
         if s_from in excluded or s_to in excluded or s_from in frozen_accounts or s_to in frozen_accounts:
             seized_funds += amt
             frozen_txns_count += 1
@@ -316,8 +325,8 @@ def get_takedown_strategies(
     txns = datasets.get("transactions", [])
     acc_vol = defaultdict(float)
     for t in txns:
-        acc_vol[str(t.get("sender_account"))] += float(t.get("amount") or 0)
-        acc_vol[str(t.get("receiver_account"))] += float(t.get("amount") or 0)
+        acc_vol[str(t.get("sender_account"))] += _txn_amount(t)
+        acc_vol[str(t.get("receiver_account"))] += _txn_amount(t)
 
     mule_people = sorted(
         [p["id"] for p in people if p.get("account") in acc_vol],

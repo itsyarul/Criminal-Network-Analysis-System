@@ -1,4 +1,0 @@
-surveillance_id,person_id,day,location,text,confidence
-SURV-1-001,P07,25,LOC-2,Observed meeting potentially related to drug distribution activity.,0.78
-SURV-1-002,P19,34,LOC-3,Observed meeting potentially related to arms supply activity.,0.78
-SURV-1-003,P31,43,LOC-4,Observed meeting potentially related to logistics activity.,0.78

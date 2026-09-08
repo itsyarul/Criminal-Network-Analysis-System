@@ -71,28 +71,37 @@ def _whatif_iid():
 
 def test_whatif_remove_node():
     iid = _whatif_iid()
-    r = client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}, headers=H)
-    assert r.status_code == 200, r.text
-    d = r.json()
-    assert d["remove_id"] == "X1"
-    assert d["remaining_nodes"] == d["original_nodes"] - 1
-    assert d["remaining_edges"] < d["original_edges"]
-    assert d["removed_edges"] == d["original_edges"] - d["remaining_edges"]
-    assert d["disconnected_components"] >= 1
-    assert 0 <= d["impact_score"] <= 100
-    assert d["simulation_only"] is True
+    try:
+        r = client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}, headers=H)
+        assert r.status_code == 200, r.text
+        d = r.json()
+        assert d["remove_id"] == "X1"
+        assert d["remaining_nodes"] == d["original_nodes"] - 1
+        assert d["remaining_edges"] < d["original_edges"]
+        assert d["removed_edges"] == d["original_edges"] - d["remaining_edges"]
+        assert d["disconnected_components"] >= 1
+        assert 0 <= d["impact_score"] <= 100
+        assert d["simulation_only"] is True
+    finally:
+        client.delete(f"/investigations/{iid}", headers=H)
 
 def test_whatif_unknown_node():
     iid = _whatif_iid()
-    r = client.get(f"/investigations/{iid}/whatif", params={"remove_id": "NOPE"}, headers=H)
-    assert r.status_code == 404
+    try:
+        r = client.get(f"/investigations/{iid}/whatif", params={"remove_id": "NOPE"}, headers=H)
+        assert r.status_code == 404
+    finally:
+        client.delete(f"/investigations/{iid}", headers=H)
 
 def test_whatif_role_gated():
     from conftest import auth_headers
     iid = _whatif_iid()
-    assert client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}).status_code == 401
-    assert client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}, headers=auth_headers("analyst")).status_code == 403
-    assert client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}, headers=auth_headers("investigator")).status_code == 200
+    try:
+        assert client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}).status_code == 401
+        assert client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}, headers=auth_headers("analyst")).status_code == 403
+        assert client.get(f"/investigations/{iid}/whatif", params={"remove_id": "X1"}, headers=auth_headers("investigator")).status_code == 200
+    finally:
+        client.delete(f"/investigations/{iid}", headers=H)
 
 def test_towers_schematic():
     from conftest import auth_headers

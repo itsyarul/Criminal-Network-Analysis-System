@@ -351,10 +351,15 @@ def detect_columns(file_path: Path, fmt: str, max_rows: int = 3) -> Tuple[List[s
         elif fmt == "json":
             with open(file_path, encoding='utf-8') as f:
                 data = json.load(f)
-                if isinstance(data, dict) and "data" in data:
-                    data = data["data"]
+                if isinstance(data, dict):
+                    if "network_people" in data and isinstance(data["network_people"], list):
+                        data = data["network_people"] + data.get("noise_people", [])
+                    elif "data" in data and isinstance(data["data"], list):
+                        data = data["data"]
+                    elif "records" in data and isinstance(data["records"], list):
+                        data = data["records"]
                 if isinstance(data, list) and data:
-                    cols = list(data[0].keys())
+                    cols = list(data[0].keys()) if isinstance(data[0], dict) else []
                     sample = data[:max_rows]
                 elif isinstance(data, dict):
                     cols = list(data.keys())
@@ -380,8 +385,13 @@ def read_full_rows(file_path: Path, fmt: str) -> Tuple[List[str], List[Dict], Di
         try:
             with open(file_path, encoding='utf-8') as f:
                 data = json.load(f)
-                if isinstance(data, dict) and "data" in data:
-                    data = data["data"]
+                if isinstance(data, dict):
+                    if "network_people" in data and isinstance(data["network_people"], list):
+                        data = data["network_people"] + data.get("noise_people", [])
+                    elif "data" in data and isinstance(data["data"], list):
+                        data = data["data"]
+                    elif "records" in data and isinstance(data["records"], list):
+                        data = data["records"]
                 rows = data if isinstance(data, list) else [data]
                 cols = list(rows[0].keys()) if rows and isinstance(rows[0], dict) else []
                 return cols, rows, {"handler": "json", "row_count_estimate": len(rows)}

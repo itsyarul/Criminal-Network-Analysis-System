@@ -6,8 +6,7 @@
       "role": "Kingpin",
       "cell": "A",
       "phone": "7000000001",
-      "account": "AC0009000001",
-      "photo": "/mugshots/A1.jpg"
+      "account": "AC0009000001"
     },
     {
       "id": "A2",
@@ -15,8 +14,7 @@
       "role": "Lieutenant",
       "cell": "A",
       "phone": "7000000002",
-      "account": "AC0009000002",
-      "photo": "/mugshots/A2.jpg"
+      "account": "AC0009000002"
     },
     {
       "id": "A3",
@@ -24,8 +22,7 @@
       "role": "Lieutenant",
       "cell": "A",
       "phone": "7000000003",
-      "account": "AC0009000003",
-      "photo": "/mugshots/A3.jpg"
+      "account": "AC0009000003"
     },
     {
       "id": "A4",
@@ -33,8 +30,7 @@
       "role": "Lieutenant",
       "cell": "A",
       "phone": "7000000004",
-      "account": "AC0009000004",
-      "photo": "/mugshots/A4.jpg"
+      "account": "AC0009000004"
     },
     {
       "id": "A5",
@@ -42,8 +38,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000005",
-      "account": "AC0009000005",
-      "photo": "/mugshots/A5.jpg"
+      "account": "AC0009000005"
     },
     {
       "id": "A6",
@@ -51,8 +46,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000006",
-      "account": "AC0009000006",
-      "photo": "/mugshots/A6.jpg"
+      "account": "AC0009000006"
     },
     {
       "id": "A13",
@@ -60,8 +54,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000007",
-      "account": "AC0009000007",
-      "photo": "/mugshots/A13.jpg"
+      "account": "AC0009000007"
     },
     {
       "id": "A7",
@@ -69,8 +62,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000008",
-      "account": "AC0009000008",
-      "photo": "/mugshots/A7.jpg"
+      "account": "AC0009000008"
     },
     {
       "id": "A8",
@@ -78,8 +70,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000009",
-      "account": "AC0009000009",
-      "photo": "/mugshots/A8.jpg"
+      "account": "AC0009000009"
     },
     {
       "id": "A9",
@@ -87,8 +78,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000010",
-      "account": "AC0009000010",
-      "photo": "/mugshots/A9.jpg"
+      "account": "AC0009000010"
     },
     {
       "id": "A10",
@@ -96,8 +86,7 @@
       "role": "Associate",
       "cell": "A",
       "phone": "7000000011",
-      "account": "AC0009000011",
-      "photo": "/mugshots/A10.jpg"
+      "account": "AC0009000011"
     },
     {
       "id": "A11",
@@ -105,8 +94,7 @@
       "role": "Accountant",
       "cell": "A",
       "phone": "7000000012",
-      "account": "AC0009000012",
-      "photo": "/mugshots/A11.jpg"
+      "account": "AC0009000012"
     },
     {
       "id": "A12",
@@ -114,8 +102,7 @@
       "role": "Safehouse keeper",
       "cell": "A",
       "phone": "7000000013",
-      "account": "AC0009000013",
-      "photo": "/mugshots/A12.jpg"
+      "account": "AC0009000013"
     },
     {
       "id": "B1",
@@ -123,8 +110,7 @@
       "role": "Kingpin",
       "cell": "B",
       "phone": "7000000014",
-      "account": "AC0009000014",
-      "photo": "/mugshots/B1.jpg"
+      "account": "AC0009000014"
     },
     {
       "id": "B2",
@@ -132,8 +118,7 @@
       "role": "Lieutenant",
       "cell": "B",
       "phone": "7000000015",
-      "account": "AC0009000015",
-      "photo": "/mugshots/B2.jpg"
+      "account": "AC0009000015"
     },
     {
       "id": "B3",
@@ -141,8 +126,7 @@
       "role": "Lieutenant",
       "cell": "B",
       "phone": "7000000016",
-      "account": "AC0009000016",
-      "photo": "/mugshots/B3.jpg"
+      "account": "AC0009000016"
     },
     {
       "id": "B4",
@@ -150,8 +134,7 @@
       "role": "Lieutenant",
       "cell": "B",
       "phone": "7000000017",
-      "account": "AC0009000017",
-      "photo": "/mugshots/B4.jpg"
+      "account": "AC0009000017"
     },
     {
       "id": "B5",
@@ -159,8 +142,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000018",
-      "account": "AC0009000018",
-      "photo": "/mugshots/B5.jpg"
+      "account": "AC0009000018"
     },
     {
       "id": "B6",
@@ -168,8 +150,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000019",
-      "account": "AC0009000019",
-      "photo": "/mugshots/B6.jpg"
+      "account": "AC0009000019"
     },
     {
       "id": "B13",
@@ -177,8 +158,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000020",
-      "account": "AC0009000020",
-      "photo": "/mugshots/B13.jpg"
+      "account": "AC0009000020"
     },
     {
       "id": "B7",
@@ -186,8 +166,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000021",
-      "account": "AC0009000021",
-      "photo": "/mugshots/B7.jpg"
+      "account": "AC0009000021"
     },
     {
       "id": "B8",
@@ -195,8 +174,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000022",
-      "account": "AC0009000022",
-      "photo": "/mugshots/B8.jpg"
+      "account": "AC0009000022"
     },
     {
       "id": "B9",
@@ -204,8 +182,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000023",
-      "account": "AC0009000023",
-      "photo": "/mugshots/B9.jpg"
+      "account": "AC0009000023"
     },
     {
       "id": "B10",
@@ -213,8 +190,7 @@
       "role": "Courier",
       "cell": "B",
       "phone": "7000000024",
-      "account": "AC0009000024",
-      "photo": "/mugshots/B10.jpg"
+      "account": "AC0009000024"
     },
     {
       "id": "B11",
@@ -222,8 +198,7 @@
       "role": "Financier",
       "cell": "B",
       "phone": "7000000025",
-      "account": "AC0009000025",
-      "photo": "/mugshots/B11.jpg"
+      "account": "AC0009000025"
     },
     {
       "id": "B12",
@@ -231,8 +206,7 @@
       "role": "Cache keeper",
       "cell": "B",
       "phone": "7000000026",
-      "account": "AC0009000026",
-      "photo": "/mugshots/B12.jpg"
+      "account": "AC0009000026"
     },
     {
       "id": "C1",
@@ -240,8 +214,7 @@
       "role": "Kingpin",
       "cell": "C",
       "phone": "7000000027",
-      "account": "AC0009000027",
-      "photo": "/mugshots/C1.jpg"
+      "account": "AC0009000027"
     },
     {
       "id": "C2",
@@ -249,8 +222,7 @@
       "role": "Lieutenant",
       "cell": "C",
       "phone": "7000000028",
-      "account": "AC0009000028",
-      "photo": "/mugshots/C2.jpg"
+      "account": "AC0009000028"
     },
     {
       "id": "C3",
@@ -258,8 +230,7 @@
       "role": "Lieutenant",
       "cell": "C",
       "phone": "7000000029",
-      "account": "AC0009000029",
-      "photo": "/mugshots/C3.jpg"
+      "account": "AC0009000029"
     },
     {
       "id": "C4",
@@ -267,8 +238,7 @@
       "role": "Lieutenant",
       "cell": "C",
       "phone": "7000000030",
-      "account": "AC0009000030",
-      "photo": "/mugshots/C4.jpg"
+      "account": "AC0009000030"
     },
     {
       "id": "C5",
@@ -276,8 +246,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000031",
-      "account": "AC0009000031",
-      "photo": "/mugshots/C5.jpg"
+      "account": "AC0009000031"
     },
     {
       "id": "C6",
@@ -285,8 +254,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000032",
-      "account": "AC0009000032",
-      "photo": "/mugshots/C6.jpg"
+      "account": "AC0009000032"
     },
     {
       "id": "C13",
@@ -294,8 +262,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000033",
-      "account": "AC0009000033",
-      "photo": "/mugshots/C13.jpg"
+      "account": "AC0009000033"
     },
     {
       "id": "C7",
@@ -303,8 +270,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000034",
-      "account": "AC0009000034",
-      "photo": "/mugshots/C7.jpg"
+      "account": "AC0009000034"
     },
     {
       "id": "C8",
@@ -312,8 +278,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000035",
-      "account": "AC0009000035",
-      "photo": "/mugshots/C8.jpg"
+      "account": "AC0009000035"
     },
     {
       "id": "C9",
@@ -321,8 +286,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000036",
-      "account": "AC0009000036",
-      "photo": "/mugshots/C9.jpg"
+      "account": "AC0009000036"
     },
     {
       "id": "C10",
@@ -330,8 +294,7 @@
       "role": "Enforcer",
       "cell": "C",
       "phone": "7000000037",
-      "account": "AC0009000037",
-      "photo": "/mugshots/C10.jpg"
+      "account": "AC0009000037"
     },
     {
       "id": "C11",
@@ -339,8 +302,7 @@
       "role": "Accountant",
       "cell": "C",
       "phone": "7000000038",
-      "account": "AC0009000038",
-      "photo": "/mugshots/C11.jpg"
+      "account": "AC0009000038"
     },
     {
       "id": "C12",
@@ -348,8 +310,7 @@
       "role": "Collection agent",
       "cell": "C",
       "phone": "7000000039",
-      "account": "AC0009000039",
-      "photo": "/mugshots/C12.jpg"
+      "account": "AC0009000039"
     },
     {
       "id": "X1",
@@ -357,8 +318,7 @@
       "role": "Hawala operator",
       "cell": "Bridge",
       "phone": "7000000040",
-      "account": "AC0009000040",
-      "photo": "/mugshots/X1.jpg"
+      "account": "AC0009000040"
     },
     {
       "id": "X2",
@@ -366,8 +326,7 @@
       "role": "Weapons supplier",
       "cell": "Bridge",
       "phone": "7000000041",
-      "account": "AC0009000041",
-      "photo": "/mugshots/X2.jpg"
+      "account": "AC0009000041"
     },
     {
       "id": "X3",
@@ -375,8 +334,7 @@
       "role": "Logistics broker",
       "cell": "Bridge",
       "phone": "7000000042",
-      "account": "AC0009000042",
-      "photo": "/mugshots/X3.jpg"
+      "account": "AC0009000042"
     },
     {
       "id": "X4",
@@ -384,190 +342,291 @@
       "role": "Corrupt police contact",
       "cell": "Bridge",
       "phone": "7000000043",
-      "account": "AC0009000043",
-      "photo": "/mugshots/WhatsApp Image 2026-09-07 at 02.46.17.jpeg"
+      "account": "AC0009000043"
+    },
+    {
+      "id": "D1",
+      "name": "Ravi Deshmukh",
+      "role": "Leader",
+      "cell": "D",
+      "phone": "7000000044",
+      "account": "AC0009000044"
+    },
+    {
+      "id": "D2",
+      "name": "Ajay Salvi",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7000000045",
+      "account": "AC0009000045"
+    },
+    {
+      "id": "D3",
+      "name": "Prakash Nikam",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7000000046",
+      "account": "AC0009000046"
+    },
+    {
+      "id": "D4",
+      "name": "Suraj Kamble",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7000000047",
+      "account": "AC0009000047"
+    },
+    {
+      "id": "D5",
+      "name": "Mangesh Pawar",
+      "role": "Chop-shop operator",
+      "cell": "D",
+      "phone": "7000000048",
+      "account": "AC0009000048"
+    },
+    {
+      "id": "D6",
+      "name": "Vishal Teli",
+      "role": "Associate",
+      "cell": "D",
+      "phone": "7000000049",
+      "account": "AC0009000049"
+    },
+    {
+      "id": "D7",
+      "name": "Sonal Rathod",
+      "role": "Fence",
+      "cell": "D",
+      "phone": "7000000050",
+      "account": "AC0009000050"
+    },
+    {
+      "id": "E1",
+      "name": "Rakesh Ahuja",
+      "role": "Handler",
+      "cell": "E",
+      "phone": "7000000051",
+      "account": "AC0009000051"
+    },
+    {
+      "id": "E2",
+      "name": "Priya Nair",
+      "role": "Team lead",
+      "cell": "E",
+      "phone": "7000000052",
+      "account": "AC0009000052"
+    },
+    {
+      "id": "E3",
+      "name": "Vivek Chatterjee",
+      "role": "Team lead",
+      "cell": "E",
+      "phone": "7000000053",
+      "account": "AC0009000053"
+    },
+    {
+      "id": "E4",
+      "name": "Sneha Reddy",
+      "role": "Caller",
+      "cell": "E",
+      "phone": "7000000054",
+      "account": "AC0009000054"
+    },
+    {
+      "id": "E5",
+      "name": "Amit Bhatia",
+      "role": "Caller",
+      "cell": "E",
+      "phone": "7000000055",
+      "account": "AC0009000055"
+    },
+    {
+      "id": "E6",
+      "name": "Rohan Malhotra",
+      "role": "Caller",
+      "cell": "E",
+      "phone": "7000000056",
+      "account": "AC0009000056"
+    },
+    {
+      "id": "E7",
+      "name": "Divya Menon",
+      "role": "Money mule",
+      "cell": "E",
+      "phone": "7000000057",
+      "account": "AC0009000057"
     }
   ],
   "noise_people": [
     {
       "id": "N1",
-      "name": "Sunita Mishra",
+      "name": "Sneha Naidu",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000100",
-      "account": "AC0009000100",
-      "photo": "/mugshots/N1.jpg"
+      "account": "AC0009000100"
     },
     {
       "id": "N2",
-      "name": "Anita Kulkarni",
+      "name": "Divya Nair",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000101",
-      "account": "AC0009000101",
-      "photo": "/mugshots/N2.jpg"
+      "account": "AC0009000101"
     },
     {
       "id": "N3",
-      "name": "Vinay Naidu",
+      "name": "Priya Reddy",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000102",
-      "account": "AC0009000102",
-      "photo": "/mugshots/N3.jpg"
+      "account": "AC0009000102"
     },
     {
       "id": "N4",
-      "name": "Sunita Nair",
-      "role": "Unrelated/background",
-      "cell": "Noise",
-      "phone": "7000000103",
-      "account": "AC0009000103",
-      "photo": "/mugshots/N4.jpg"
-    },
-    {
-      "id": "N5",
       "name": "Amit Reddy",
       "role": "Unrelated/background",
       "cell": "Noise",
+      "phone": "7000000103",
+      "account": "AC0009000103"
+    },
+    {
+      "id": "N5",
+      "name": "Arjun Rao",
+      "role": "Unrelated/background",
+      "cell": "Noise",
       "phone": "7000000104",
-      "account": "AC0009000104",
-      "photo": "/mugshots/N5.jpg"
+      "account": "AC0009000104"
     },
     {
       "id": "N6",
-      "name": "Poonam Menon",
+      "name": "Priya Dutta",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000105",
-      "account": "AC0009000105",
-      "photo": "/mugshots/N6.jpg"
+      "account": "AC0009000105"
     },
     {
       "id": "N7",
-      "name": "Priya Mishra",
+      "name": "Deepa Mishra",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000106",
-      "account": "AC0009000106",
-      "photo": "/mugshots/N7.jpg"
+      "account": "AC0009000106"
     },
     {
       "id": "N8",
-      "name": "Manoj Kulkarni",
+      "name": "Manoj Menon",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000107",
-      "account": "AC0009000107",
-      "photo": "/mugshots/N8.jpg"
+      "account": "AC0009000107"
     },
     {
       "id": "N9",
-      "name": "Vinay Dutta",
+      "name": "Naveen Reddy",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000108",
-      "account": "AC0009000108",
-      "photo": "/mugshots/N9.jpg"
+      "account": "AC0009000108"
     },
     {
       "id": "N10",
-      "name": "Alok Mishra",
+      "name": "Vinay Reddy",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000109",
-      "account": "AC0009000109",
-      "photo": "/mugshots/N10.jpg"
+      "account": "AC0009000109"
     },
     {
       "id": "N11",
-      "name": "Amit Kulkarni",
-      "role": "Unrelated/background",
-      "cell": "Noise",
-      "phone": "7000000110",
-      "account": "AC0009000110",
-      "photo": "/mugshots/N11.jpg"
-    },
-    {
-      "id": "N12",
       "name": "Amit Menon",
       "role": "Unrelated/background",
       "cell": "Noise",
+      "phone": "7000000110",
+      "account": "AC0009000110"
+    },
+    {
+      "id": "N12",
+      "name": "Priya Bansal",
+      "role": "Unrelated/background",
+      "cell": "Noise",
       "phone": "7000000111",
-      "account": "AC0009000111",
-      "photo": "/mugshots/N12.jpg"
+      "account": "AC0009000111"
     },
     {
       "id": "N13",
-      "name": "Vinay Chatterjee",
+      "name": "Poonam Reddy",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000112",
-      "account": "AC0009000112",
-      "photo": "/mugshots/N13.jpg"
+      "account": "AC0009000112"
     },
     {
       "id": "N14",
-      "name": "Poonam Bhatia",
+      "name": "Vinay Nair",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000113",
-      "account": "AC0009000113",
-      "photo": "/mugshots/N14.jpg"
+      "account": "AC0009000113"
     },
     {
       "id": "N15",
-      "name": "Rakesh Malhotra",
+      "name": "Poonam Mishra",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000114",
-      "account": "AC0009000114",
-      "photo": "/mugshots/N15.jpg"
+      "account": "AC0009000114"
     },
     {
       "id": "N16",
-      "name": "Pooja Sinha",
+      "name": "Poonam Rao",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000115",
-      "account": "AC0009000115",
-      "photo": "/mugshots/N16.jpg"
+      "account": "AC0009000115"
     },
     {
       "id": "N17",
-      "name": "Naveen Iyer",
+      "name": "Divya Mishra",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000116",
-      "account": "AC0009000116",
-      "photo": "/mugshots/N17.jpg"
+      "account": "AC0009000116"
     },
     {
       "id": "N18",
-      "name": "Anita Naidu",
+      "name": "Vinay Mishra",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000117",
-      "account": "AC0009000117",
-      "photo": "/mugshots/N18.jpg"
+      "account": "AC0009000117"
     },
     {
       "id": "N19",
-      "name": "Deepa Malhotra",
+      "name": "Amit Bansal",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000118",
-      "account": "AC0009000118",
-      "photo": "/mugshots/N19.jpg"
+      "account": "AC0009000118"
     },
     {
       "id": "N20",
-      "name": "Sneha Reddy",
+      "name": "Ajay Bhatia",
       "role": "Unrelated/background",
       "cell": "Noise",
       "phone": "7000000119",
-      "account": "AC0009000119",
-      "photo": "/mugshots/N20.jpg"
+      "account": "AC0009000119"
+    }
+  ],
+  "service_contacts": [
+    {
+      "id": "SVC1",
+      "name": "City Bites Fast Food (Delivery Line)",
+      "role": "Legitimate business - not a suspect",
+      "cell": "Business",
+      "phone": "7000000999",
+      "account": "AC0009000999"
     }
   ]
 }

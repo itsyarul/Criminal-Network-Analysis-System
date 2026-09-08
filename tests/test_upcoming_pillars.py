@@ -138,19 +138,22 @@ def test_direct_upload_and_process_without_manual_mapping():
     assert r_create.status_code == 200
     iid = r_create.json()["id"]
 
-    # 2. Upload shorthand CSVs directly
-    cdr_csv = "call_id,caller,receiver,day,duration_sec,type\nC001,9876543210,9123456780,1,120,voice\n"
-    r_upload = client.post(
-        f"/investigations/{iid}/upload",
-        files={"files": ("cdrs.csv", cdr_csv.encode("utf-8"), "text/csv")},
-        headers=headers
-    )
-    assert r_upload.status_code == 200
+    try:
+        # 2. Upload shorthand CSVs directly
+        cdr_csv = "call_id,caller,receiver,day,duration_sec,type\nC001,9876543210,9123456780,1,120,voice\n"
+        r_upload = client.post(
+            f"/investigations/{iid}/upload",
+            files={"files": ("cdrs.csv", cdr_csv.encode("utf-8"), "text/csv")},
+            headers=headers
+        )
+        assert r_upload.status_code == 200
 
-    # 3. Process directly without calling /mapping
-    r_proc = client.post(f"/investigations/{iid}/process", headers=headers)
-    assert r_proc.status_code == 200, f"Processing failed: {r_proc.text}"
-    data = r_proc.json()
-    assert data["stats"]["node_count"] >= 2
+        # 3. Process directly without calling /mapping
+        r_proc = client.post(f"/investigations/{iid}/process", headers=headers)
+        assert r_proc.status_code == 200, f"Processing failed: {r_proc.text}"
+        data = r_proc.json()
+        assert data["stats"]["node_count"] >= 2
+    finally:
+        client.delete(f"/investigations/{iid}", headers=headers)
 
 

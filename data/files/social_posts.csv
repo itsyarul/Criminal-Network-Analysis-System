@@ -1,0 +1,95 @@
+post_id,handle,person_id,timestamp,day,location_tag,post_text,hashtags,ground_truth_flag
+SOC0075,@arjun75,N5,2026-02-22,53,Central Junction,"Traffic near Central Junction is unbearable this morning, avoid if you can.",#weekend,noise
+SOC0017,@nitin61,B4,2026-02-27,58,Central Junction,"Meeting the usual crew near Central Junction tonight, don't be late.",#grind,relevant_cell_B
+SOC0070,@poonam25,N13,2026-01-12,12,Warehouse District,"Beautiful sunset from Warehouse District today, needed this.",#hustle,noise
+SOC0022,@kavita69,B11,2026-03-01,60,Station Road,"Collections running slow this week around Station Road, need to speed up.",#family,relevant_cell_B
+SOC0063,@divya26,E7,2026-03-09,68,Hilltop Society,"Hiring enthusiastic callers, flexible hours, training provided near Hilltop Society. #hiring #wfh",#business,relevant_cell_E
+SOC0027,@baban67,C4,2026-02-26,57,Old Market Circle,"Big delivery coming through Old Market Circle soon, everyone ready? #hustle",#hustle,relevant_cell_C
+SOC0010,@anwar58,A1,2026-02-22,53,Hilltop Society,"Collections running slow this week around Hilltop Society, need to speed up.",#hustle,relevant_cell_A
+SOC0068,@vinay37,N10,2026-01-16,16,Lakeview Chowk,"Beautiful sunset from Lakeview Chowk today, needed this.",#weekend,noise
+SOC0004,@rohit81,A12,2026-02-20,51,Lakeview Chowk,"Meeting the usual crew near Lakeview Chowk tonight, don't be late.",#weekend,relevant_cell_A
+SOC0008,@meena80,A11,2026-02-21,52,Riverside Colony,"Meeting the usual crew near Riverside Colony tonight, don't be late.",#weekend,relevant_cell_A
+SOC0067,@arjun47,N5,2026-01-09,9,Hilltop Society,"Beautiful sunset from Hilltop Society today, needed this.",#weekend,noise
+SOC0003,@farhan14,A3,2026-02-26,57,New Colony,"Big delivery coming through New Colony soon, everyone ready? #hustle",#grind,relevant_cell_A
+SOC0012,@vikas13,A4,2026-02-22,53,Central Junction,"New shipment landing soon, Central Junction side clear for now.",#hustle,relevant_cell_A
+SOC0019,@vinod16,B3,2026-02-27,58,Warehouse District,"New shipment landing soon, Warehouse District side clear for now.",#weekend,relevant_cell_B
+SOC0005,@farhan52,A3,2026-02-26,57,Station Road,"Package count almost done, moving it by this weekend near Station Road.",#family,relevant_cell_A
+SOC0080,@vinay99,N14,2026-01-26,26,Lakeview Chowk,Great biryani at the new place near Lakeview Chowk today! 10/10 #foodie,#hustle,noise
+SOC0038,@neha86,C11,2026-02-26,57,Dockside Ward,"Collections running slow this week around Dockside Ward, need to speed up.",#weekend,relevant_cell_C
+SOC0086,@vinay42,N18,2026-02-12,43,Hilltop Society,"Beautiful sunset from Hilltop Society today, needed this.",#weekend,noise
+SOC0011,@vikas10,A4,2026-02-25,56,North Bypass,"Big delivery coming through North Bypass soon, everyone ready? #hustle",#grind,relevant_cell_A
+SOC0061,@priya21,E2,2026-03-09,68,Station Road,"Earn ₹5000/day doing simple data entry calls, no experience needed! Limited seats. #jobalert",#business,relevant_cell_E
+SOC0083,@poonam18,N13,2026-01-29,29,Old Market Circle,"Watching the match tonight, who's up for it? #cricket",#family,noise
+SOC0044,@sonal47,D7,2026-02-01,32,New Colony,"Fresh stock of spare parts available near New Colony, DM for prices. #spareparts #deal",#grind,relevant_cell_D
+SOC0016,@nitin61,B4,2026-02-24,55,New Colony,"Meeting the usual crew near New Colony tonight, don't be late.",#family,relevant_cell_B
+SOC0078,@divya13,N17,2026-02-22,53,Dockside Ward,"Watching the match tonight, who's up for it? #cricket",#family,noise
+SOC0034,@prakash84,C1,2026-03-03,62,Warehouse District,"Package count almost done, moving it by this weekend near Warehouse District.",#hustle,relevant_cell_C
+SOC0049,@ajay57,D2,2026-02-05,36,New Colony,"Fresh stock of spare parts available near New Colony, DM for prices. #spareparts #deal",#family,relevant_cell_D
+SOC0093,@priya51,N3,2026-03-12,71,Riverside Colony,"Beautiful sunset from Riverside Colony today, needed this.",#grind,noise
+SOC0033,@prakash72,C1,2026-03-03,62,Dockside Ward,"Collections running slow this week around Dockside Ward, need to speed up.",#weekend,relevant_cell_C
+SOC0026,@nitin90,B4,2026-02-22,53,Station Road,"Meeting the usual crew near Station Road tonight, don't be late.",#hustle,relevant_cell_B
+SOC0091,@divya32,N2,2026-01-09,9,Lakeview Chowk,"Traffic near Lakeview Chowk is unbearable this morning, avoid if you can.",#blessed,noise
+SOC0007,@meena71,A11,2026-02-22,53,New Colony,"Package count almost done, moving it by this weekend near New Colony.",#hustle,relevant_cell_A
+SOC0054,@priya10,E2,2026-03-11,70,Central Junction,"Work from home, easy income, just need your bank account for a few hours a day! DM now. #jobalert",#weekend,relevant_cell_E
+SOC0084,@amit62,N4,2026-02-27,58,Warehouse District,"Watching the match tonight, who's up for it? #cricket",#family,noise
+SOC0040,@suraj83,D4,2026-02-06,37,Industrial Estate Road,"Looking for buyers for a batch near Industrial Estate Road, cash only, message directly.",#business,relevant_cell_D
+SOC0088,@divya16,N17,2026-03-26,85,Industrial Estate Road,"Traffic near Industrial Estate Road is unbearable this morning, avoid if you can.",#hustle,noise
+SOC0064,@divya90,E7,2026-03-14,73,Dockside Ward,"Looking for students to help with 'customer support' calls, easy money, message me near Dockside Ward.",#hustle,relevant_cell_E
+SOC0042,@ajay82,D2,2026-02-07,38,Warehouse District,"Fresh stock of spare parts available near Warehouse District, DM for prices. #spareparts #deal",#business,relevant_cell_D
+SOC0001,@farhan61,A3,2026-02-23,54,North Bypass,"New shipment landing soon, North Bypass side clear for now.",#business,relevant_cell_A
+SOC0006,@farhan31,A3,2026-02-21,52,Riverside Colony,"Big delivery coming through Riverside Colony soon, everyone ready? #hustle",#grind,relevant_cell_A
+SOC0076,@amit46,N11,2026-03-01,60,Station Road,Anyone recommend a good electrician near Station Road?,#business,noise
+SOC0062,@priya19,E2,2026-03-11,70,Riverside Colony,"Work from home, easy income, just need your bank account for a few hours a day! DM now. #jobalert",#hustle,relevant_cell_E
+SOC0094,@amit72,N4,2026-01-11,11,Dockside Ward,"Watching the match tonight, who's up for it? #cricket",#hustle,noise
+SOC0071,@amit42,N19,2026-02-24,55,Station Road,"Beautiful sunset from Station Road today, needed this.",#weekend,noise
+SOC0073,@vinay71,N14,2026-01-01,1,Industrial Estate Road,"Beautiful sunset from Industrial Estate Road today, needed this.",#weekend,noise
+SOC0023,@vinod24,B3,2026-02-24,55,Old Market Circle,"Meeting the usual crew near Old Market Circle tonight, don't be late.",#blessed,relevant_cell_B
+SOC0090,@vinay62,N10,2026-03-10,69,Station Road,Anyone recommend a good electrician near Station Road?,#hustle,noise
+SOC0057,@amit42,E5,2026-03-12,71,Station Road,"Hiring enthusiastic callers, flexible hours, training provided near Station Road. #hiring #wfh",#grind,relevant_cell_E
+SOC0014,@nitin17,B4,2026-02-25,56,Central Junction,"Package count almost done, moving it by this weekend near Central Junction.",#family,relevant_cell_B
+SOC0055,@rakesh91,E1,2026-03-15,74,Riverside Colony,"Earn ₹5000/day doing simple data entry calls, no experience needed! Limited seats. #jobalert",#grind,relevant_cell_E
+SOC0053,@rakesh72,E1,2026-03-10,69,Station Road,"Work from home, easy income, just need your bank account for a few hours a day! DM now. #jobalert",#grind,relevant_cell_E
+SOC0046,@ajay58,D2,2026-02-04,35,Central Junction,"Selling clean parts, no questions asked, meet near Central Junction this week.",#blessed,relevant_cell_D
+SOC0037,@baban73,C4,2026-02-26,57,North Bypass,"Collections running slow this week around North Bypass, need to speed up.",#family,relevant_cell_C
+SOC0015,@rajan90,B1,2026-02-22,53,Old Market Circle,"New shipment landing soon, Old Market Circle side clear for now.",#blessed,relevant_cell_B
+SOC0032,@baban52,C4,2026-02-28,59,Industrial Estate Road,"Big delivery coming through Industrial Estate Road soon, everyone ready? #hustle",#hustle,relevant_cell_C
+SOC0020,@kavita52,B11,2026-02-22,53,Old Market Circle,"Package count almost done, moving it by this weekend near Old Market Circle.",#blessed,relevant_cell_B
+SOC0085,@vinay40,N14,2026-01-22,22,North Bypass,Anyone recommend a good electrician near North Bypass?,#family,noise
+SOC0074,@poonam81,N13,2026-01-16,16,North Bypass,Great biryani at the new place near North Bypass today! 10/10 #foodie,#business,noise
+SOC0066,@vinay68,N14,2026-02-14,45,Lakeview Chowk,Anyone recommend a good electrician near Lakeview Chowk?,#weekend,noise
+SOC0079,@poonam64,N16,2026-01-28,28,Eastgate,Great biryani at the new place near Eastgate today! 10/10 #foodie,#business,noise
+SOC0028,@baban74,C4,2026-03-03,62,Lakeview Chowk,"Big delivery coming through Lakeview Chowk soon, everyone ready? #hustle",#business,relevant_cell_C
+SOC0056,@priya97,E2,2026-03-14,73,Eastgate,"Hiring enthusiastic callers, flexible hours, training provided near Eastgate. #hiring #wfh",#blessed,relevant_cell_E
+SOC0082,@amit68,N19,2026-03-29,88,North Bypass,"Beautiful sunset from North Bypass today, needed this.",#weekend,noise
+SOC0029,@nasir85,C2,2026-02-25,56,Riverside Colony,"Collections running slow this week around Riverside Colony, need to speed up.",#grind,relevant_cell_C
+SOC0065,@sneha35,N1,2026-02-13,44,Hilltop Society,"Traffic near Hilltop Society is unbearable this morning, avoid if you can.",#family,noise
+SOC0002,@meena59,A11,2026-02-22,53,Hilltop Society,"Meeting the usual crew near Hilltop Society tonight, don't be late.",#family,relevant_cell_A
+SOC0041,@ravi52,D1,2026-02-01,32,Central Junction,"Great condition parts just came in, moving fast, Central Junction pickup only.",#family,relevant_cell_D
+SOC0089,@priya37,N12,2026-01-11,11,Central Junction,"Traffic near Central Junction is unbearable this morning, avoid if you can.",#business,noise
+SOC0050,@prakash25,D3,2026-02-01,32,Station Road,"Selling clean parts, no questions asked, meet near Station Road this week.",#hustle,relevant_cell_D
+SOC0043,@suraj89,D4,2026-02-03,34,New Colony,"Looking for buyers for a batch near New Colony, cash only, message directly.",#weekend,relevant_cell_D
+SOC0013,@vikas84,A4,2026-02-25,56,Lakeview Chowk,"New shipment landing soon, Lakeview Chowk side clear for now.",#hustle,relevant_cell_A
+SOC0031,@sunil51,C12,2026-02-25,56,New Colony,"Big delivery coming through New Colony soon, everyone ready? #hustle",#family,relevant_cell_C
+SOC0069,@poonam91,N15,2026-01-25,25,Central Junction,"Beautiful sunset from Central Junction today, needed this.",#weekend,noise
+SOC0092,@priya77,N3,2026-01-20,20,Hilltop Society,"Watching the match tonight, who's up for it? #cricket",#weekend,noise
+SOC0047,@sonal88,D7,2026-02-06,37,Lakeview Chowk,"Selling clean parts, no questions asked, meet near Lakeview Chowk this week.",#hustle,relevant_cell_D
+SOC0039,@prakash95,C1,2026-03-03,62,Warehouse District,"New shipment landing soon, Warehouse District side clear for now.",#weekend,relevant_cell_C
+SOC0025,@nitin34,B4,2026-02-27,58,North Bypass,"Package count almost done, moving it by this weekend near North Bypass.",#blessed,relevant_cell_B
+SOC0009,@farhan44,A3,2026-02-20,51,Central Junction,"Meeting the usual crew near Central Junction tonight, don't be late.",#business,relevant_cell_A
+SOC0072,@poonam74,N13,2026-01-30,30,Old Market Circle,"Traffic near Old Market Circle is unbearable this morning, avoid if you can.",#family,noise
+SOC0051,@suraj51,D4,2026-02-02,33,New Colony,"Great condition parts just came in, moving fast, New Colony pickup only.",#hustle,relevant_cell_D
+SOC0077,@ajay32,N20,2026-01-18,18,Warehouse District,"Watching the match tonight, who's up for it? #cricket",#blessed,noise
+SOC0018,@rajan86,B1,2026-02-27,58,Lakeview Chowk,"Collections running slow this week around Lakeview Chowk, need to speed up.",#grind,relevant_cell_B
+SOC0045,@prakash41,D3,2026-02-01,32,Lakeview Chowk,"Fresh stock of spare parts available near Lakeview Chowk, DM for prices. #spareparts #deal",#blessed,relevant_cell_D
+SOC0059,@rakesh10,E1,2026-03-12,71,Industrial Estate Road,"Earn ₹5000/day doing simple data entry calls, no experience needed! Limited seats. #jobalert",#weekend,relevant_cell_E
+SOC0021,@mohsin94,B12,2026-02-26,57,North Bypass,"Package count almost done, moving it by this weekend near North Bypass.",#business,relevant_cell_B
+SOC0087,@poonam14,N16,2026-02-27,58,Lakeview Chowk,"Beautiful sunset from Lakeview Chowk today, needed this.",#family,noise
+SOC0060,@rakesh96,E1,2026-03-12,71,Lakeview Chowk,"Looking for students to help with 'customer support' calls, easy money, message me near Lakeview Chowk.",#family,relevant_cell_E
+SOC0024,@mohsin36,B12,2026-02-24,55,North Bypass,"Meeting the usual crew near North Bypass tonight, don't be late.",#grind,relevant_cell_B
+SOC0035,@baban62,C4,2026-03-01,60,North Bypass,"New shipment landing soon, North Bypass side clear for now.",#hustle,relevant_cell_C
+SOC0030,@ravi63,C3,2026-03-04,63,Central Junction,"Collections running slow this week around Central Junction, need to speed up.",#hustle,relevant_cell_C
+SOC0058,@amit41,E5,2026-03-10,69,Eastgate,"Work from home, easy income, just need your bank account for a few hours a day! DM now. #jobalert",#blessed,relevant_cell_E
+SOC0048,@ajay54,D2,2026-02-07,38,Station Road,"Selling clean parts, no questions asked, meet near Station Road this week.",#business,relevant_cell_D
+SOC0036,@baban23,C4,2026-03-03,62,New Colony,"Collections running slow this week around New Colony, need to speed up.",#hustle,relevant_cell_C
+SOC0081,@manoj35,N8,2026-02-18,49,Central Junction,"Beautiful sunset from Central Junction today, needed this.",#weekend,noise
+SOC0052,@sneha79,E4,2026-03-12,71,Riverside Colony,"Work from home, easy income, just need your bank account for a few hours a day! DM now. #jobalert",#family,relevant_cell_E

@@ -1,6 +1,9 @@
 """Shared auth helpers for API tests (Phase 2 RBAC)."""
+import pytest
 from fastapi.testclient import TestClient
 
+import backend.ingestion.store as store_mod
+import backend.api.main as main_mod
 from backend.api.main import app
 
 CREDS = {
@@ -10,6 +13,22 @@ CREDS = {
 }
 
 _tokens = {}
+
+
+@pytest.fixture(scope="session", autouse=True)
+def isolate_investigations_directory(tmp_path_factory):
+    """Isolate all test investigation folders into a temporary directory so data/investigations/ remains clean."""
+    temp_dir = tmp_path_factory.mktemp("test_investigations")
+    orig_store_root = store_mod.ROOT
+    orig_main_root = main_mod.INV_ROOT
+
+    store_mod.ROOT = temp_dir
+    main_mod.INV_ROOT = temp_dir
+
+    yield temp_dir
+
+    store_mod.ROOT = orig_store_root
+    main_mod.INV_ROOT = orig_main_root
 
 
 def auth_headers(role: str = "supervisor") -> dict:

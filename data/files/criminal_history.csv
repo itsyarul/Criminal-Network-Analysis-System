@@ -1,0 +1,43 @@
+record_id,person_id,name,alias,dob,prior_offences,gang_affiliation,known_address,ground_truth_flag
+CRIM0002,A2,Suresh Rane,Sher,1987-02-12,2017 - IPC 392 (Robbery); 2019 - NDPS Act Section 8/22 (trafficking); 2023 - IPC 506 (Criminal intimidation),Sheikh Group,"73, Lakeview Chowk",network_A
+CRIM0039,N16,Poonam Rao,,1981-10-28,2018 - NDPS Act Section 20 (possession); 2022 - IPC 341 (Wrongful restraint),Unaffiliated,"193, Eastgate",noise
+CRIM0005,A5,Ganesh Pawar,,1998-02-19,2023 - NDPS Act Section 8/22 (trafficking); 2021 - IPC 341 (Wrongful restraint),Sheikh Group,"186, Dockside Ward",network_A
+CRIM0013,B3,Vinod Chavan,,1982-08-09,2019 - IPC 341 (Wrongful restraint); 2015 - NDPS Act Section 20 (possession),Naik Network,"21, Industrial Estate Road",network_B
+CRIM0030,D1,Ravi Deshmukh,,1982-08-20,2023 - Arms Act Section 25,Deshmukh Auto Ring,"187, Old Market Circle",network_D
+CRIM0032,D3,Prakash Nikam,Sultan,1989-04-06,2023 - Excise Act violation; 2017 - IPC 341 (Wrongful restraint),Deshmukh Auto Ring,"115, Lakeview Chowk",network_D
+CRIM0014,B6,Imran Baig,,2004-11-03,2022 - Excise Act violation; 2023 - IPC 379 (Theft); 2025 - IPC 384 (Extortion),Naik Network,"170, Central Junction",network_B
+CRIM0020,C1,Prakash Shetty,,1971-03-02,2022 - IPC 384 (Extortion),Shetty Outfit,"169, Lakeview Chowk",network_C
+CRIM0015,B13,Sameer Jadhav,,2006-07-19,2024 - NDPS Act Section 8/22 (trafficking); 2024 - IPC 384 (Extortion),Naik Network,"190, Industrial Estate Road",network_B
+CRIM0024,C13,Ramesh Chougule,,1996-07-21,2016 - IPC 506 (Criminal intimidation); 2018 - IPC 341 (Wrongful restraint),Shetty Outfit,"133, Hilltop Society",network_C
+CRIM0026,C8,Mahesh Gupta,,2005-04-19,2023 - IPC 379 (Theft),Shetty Outfit,"74, Station Road",network_C
+CRIM0007,A7,Ramesh Yadav,Sher,1999-04-02,2025 - NDPS Act Section 20 (possession),Sheikh Group,"90, Station Road",network_A
+CRIM0029,X2,Javed Ansari,Pappu,1988-01-14,2018 - IPC 341 (Wrongful restraint); 2016 - Excise Act violation,Cross-network affiliate (unconfirmed),"56, Warehouse District",network_Bridge
+CRIM0009,A9,Tariq Ansari,,2003-08-05,2025 - IPC 420 (Cheating); 2021 - IPC 341 (Wrongful restraint); 2025 - IPC 420 (Cheating),Sheikh Group,"33, Central Junction",network_A
+CRIM0003,A3,Farhan Qureshi,Bablu,1979-06-09,2015 - NDPS Act Section 20 (possession); 2020 - NDPS Act Section 20 (possession); 2020 - IT Act Section 66D (Cyber cheating),Sheikh Group,"68, Eastgate",network_A
+CRIM0033,D4,Suraj Kamble,,1998-12-15,2025 - IPC 420 (Cheating),Deshmukh Auto Ring,"114, Riverside Colony",network_D
+CRIM0027,C12,Sunil Pillai,,1999-08-09,2024 - IPC 384 (Extortion); 2023 - IPC 392 (Robbery); 2020 - IPC 420 (Cheating),Shetty Outfit,"94, Old Market Circle",network_C
+CRIM0038,N18,Vinay Mishra,,1983-01-01,2024 - NDPS Act Section 8/22 (trafficking),Unaffiliated,"136, Old Market Circle",noise
+CRIM0008,A8,Sanjay More,,2005-04-22,2023 - IPC 506 (Criminal intimidation); 2025 - IPC 384 (Extortion); 2023 - IPC 379 (Theft),Sheikh Group,"11, Old Market Circle",network_A
+CRIM0001,A1,Anwar Sheikh,Guru,1975-07-11,2016 - NDPS Act Section 8/22 (trafficking),Sheikh Group,"148, Riverside Colony",network_A
+CRIM0041,N8,Manoj Menon,,1976-09-10,2018 - IT Act Section 66D (Cyber cheating),Unaffiliated,"155, North Bypass",noise
+CRIM0034,D7,Sonal Rathod,,1997-07-28,2021 - IPC 420 (Cheating); 2020 - IPC 379 (Theft),Deshmukh Auto Ring,"166, Central Junction",network_D
+CRIM0004,A4,Vikas Chauhan,,1987-05-01,2019 - IPC 420 (Cheating); 2018 - Arms Act Section 25; 2016 - IPC 411 (Receiving stolen property),Sheikh Group,"31, New Colony",network_A
+CRIM0019,B12,Mohsin Qureshi,Guru,1990-04-05,2016 - Arms Act Section 25,Naik Network,"32, Dockside Ward",network_B
+CRIM0042,N5,Arjun Rao,,1979-11-11,2019 - NDPS Act Section 8/22 (trafficking); 2024 - IPC 392 (Robbery),Unaffiliated,"60, Dockside Ward",noise
+CRIM0010,A10,Faisal Shah,,1996-08-03,2020 - IT Act Section 66D (Cyber cheating); 2021 - NDPS Act Section 20 (possession),Sheikh Group,"89, Dockside Ward",network_A
+CRIM0031,D2,Ajay Salvi,,1987-01-04,2021 - Excise Act violation; 2017 - IPC 411 (Receiving stolen property),Deshmukh Auto Ring,"9, Station Road",network_D
+CRIM0017,B8,Waseem Ali,Bablu,2003-08-19,2021 - IPC 506 (Criminal intimidation); 2022 - IPC 384 (Extortion); 2024 - IPC 420 (Cheating),Naik Network,"34, New Colony",network_B
+CRIM0035,E1,Rakesh Ahuja,,1980-06-22,2021 - NDPS Act Section 8/22 (trafficking),Ahuja Cyber Cell,"33, Eastgate",network_E
+CRIM0021,C3,Ravi Kadam,,1983-05-25,2025 - NDPS Act Section 20 (possession); 2017 - IPC 341 (Wrongful restraint); 2025 - Excise Act violation,Shetty Outfit,"121, Riverside Colony",network_C
+CRIM0036,E6,Rohan Malhotra,Sultan,1986-06-22,2019 - IPC 379 (Theft); 2025 - Motor Vehicles Act Section 41; 2021 - IPC 420 (Cheating),Ahuja Cyber Cell,"24, Industrial Estate Road",network_E
+CRIM0011,B1,Rajan Naik,,1978-04-18,2016 - Motor Vehicles Act Section 41; 2022 - IT Act Section 66D (Cyber cheating); 2018 - Excise Act violation,Naik Network,"87, Riverside Colony",network_B
+CRIM0016,B7,Deepak Sawant,,2006-11-22,2025 - IPC 420 (Cheating); 2025 - IPC 506 (Criminal intimidation); 2025 - IPC 379 (Theft),Naik Network,"179, Dockside Ward",network_B
+CRIM0018,B10,Ganesh Pandit,,1998-02-08,2023 - IPC 411 (Receiving stolen property),Naik Network,"26, New Colony",network_B
+CRIM0022,C4,Baban Surve,Pappu,1979-04-26,2016 - Motor Vehicles Act Section 41; 2018 - IPC 384 (Extortion),Shetty Outfit,"166, New Colony",network_C
+CRIM0028,X1,Dinesh Mehta,,1992-03-02,2018 - IPC 392 (Robbery); 2022 - IPC 411 (Receiving stolen property),Cross-network affiliate (unconfirmed),"196, Warehouse District",network_Bridge
+CRIM0012,B2,Salim Pathan,Tiger,1979-12-21,2020 - IPC 411 (Receiving stolen property); 2016 - IPC 506 (Criminal intimidation),Naik Network,"77, North Bypass",network_B
+CRIM0037,N10,Vinay Reddy,,1993-06-22,2024 - IPC 411 (Receiving stolen property),Unaffiliated,"169, Old Market Circle",noise
+CRIM0023,C6,Santosh Bhosale,,1989-03-22,2015 - IPC 411 (Receiving stolen property); 2019 - Excise Act violation; 2015 - IPC 384 (Extortion),Shetty Outfit,"108, Warehouse District",network_C
+CRIM0025,C7,Aslam Pathan,,1998-06-10,2017 - IPC 384 (Extortion); 2016 - Arms Act Section 25; 2017 - IPC 506 (Criminal intimidation),Shetty Outfit,"45, Warehouse District",network_C
+CRIM0040,N11,Amit Menon,,1987-01-28,2019 - IT Act Section 66D (Cyber cheating); 2016 - IPC 506 (Criminal intimidation),Unaffiliated,"168, Eastgate",noise
+CRIM0006,A6,Iqbal Khan,Chhota,1987-05-18,2022 - IPC 384 (Extortion),Sheikh Group,"63, Central Junction",network_A

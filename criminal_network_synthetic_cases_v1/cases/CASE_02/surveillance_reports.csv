@@ -1,5 +1,0 @@
-surveillance_id,person_id,day,location,text,confidence
-SURV-2-001,P11,25,LOC-2,Observed meeting potentially related to illegal arms activity.,0.78
-SURV-2-002,P28,34,LOC-3,Observed meeting potentially related to smuggling activity.,0.78
-SURV-2-003,P44,43,LOC-4,Observed meeting potentially related to financial facilitation activity.,0.78
-SURV-2-004,P52,52,LOC-5,Observed meeting potentially related to logistics activity.,0.78

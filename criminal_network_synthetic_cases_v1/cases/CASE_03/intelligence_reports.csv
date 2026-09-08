@@ -1,4 +1,0 @@
-report_id,person_id,day,text,confidence
-INT-3-001,P14,20,Source report indicates possible contact with extortion network.,0.82
-INT-3-002,P37,30,Source report indicates possible contact with illicit finance network.,0.82
-INT-3-003,P61,40,Source report indicates possible contact with logistics network.,0.82

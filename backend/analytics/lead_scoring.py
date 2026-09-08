@@ -171,7 +171,7 @@ def compute_lead_scores(datasets: Dict = None, graph_serial: Dict = None) -> Lis
             "signals": signals,
             "reasons": reasons,
             "evidence_refs": [],  # filled below via why-like sources
-            "explanation": f"Potential investigative lead — weighted 0.25bridge+0.20financial+0.15comm+0.10temporal+0.15evidence+0.10centrality+0.05cross = {lead_score}/100"
+            "explanation": f"Potential investigative lead ({lead_score}/100): " + "; ".join(reasons[:3])
         })
 
     # Sort descending, filter to at least degree>=2 or bridge to avoid isolated noise at top
